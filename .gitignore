@@ -1,0 +1,47 @@
+# Rasa cache & model artifacts
+models/
+results/
+*.log
+*.db
+*.json
+*.sqlite
+*.lock
+*.tmp
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+rasa_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Training data cache
+.cache/
+.rasa/
+.rasa_tmp/
+
+# System & editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Credentials & tokens
+credentials.yml
+endpoints.yml
+.env.local
+.env.*
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS-level cruft
+*.bak
+*.old

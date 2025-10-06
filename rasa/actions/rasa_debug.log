@@ -84,3 +84,21 @@
 2025-10-06 13:29:46,579 INFO     Received GET request for path: /favicon.ico
 2025-10-06 13:29:46,579 INFO     Stripped file name: favicon.ico
 2025-10-06 13:29:46,579 ERROR    Invalid file name: favicon.ico
+2025-10-06 13:33:55,658 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:33:55,659 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:33:55,659 INFO     Checking if port 8486 is available
+2025-10-06 13:33:55,659 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 13:33:55,659 INFO     Started audio server on port 8486
+2025-10-06 13:33:56,660 INFO     Server is listening on port 8486
+2025-10-06 13:34:05,323 INFO     Attempting to login...
+2025-10-06 13:34:05,483 INFO     Login successful
+2025-10-06 13:34:05,483 INFO     Fetching house info...
+2025-10-06 13:34:05,494 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-06 13:34:05,494 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 13:34:05,516 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-06 13:34:05,517 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-06 13:34:05,517 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 13:34:05,528 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '6843faa0-953b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 872, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'c5a6f520-9834-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 876, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'd37df870-984c-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 882, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}]
+2025-10-06 13:34:05,528 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-06 13:34:05,543 INFO     Calling Vbee TTS API with text: Đã chỉnh độ sáng đèn trần nhỏ còn 100, bạn có cần hỗ trợ thêm không ?
+2025-10-06 13:34:11,441 INFO     Cached audio for text: Đã chỉnh độ sáng đèn trần nhỏ còn 100, bạn có cần hỗ trợ thêm không ?
