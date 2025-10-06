@@ -130,4 +130,9 @@ rules:
 - rule: Fallback
   steps:
   - intent: fallback
-  - action: action_fallback
+  - action: action_gemini_reply
+
+# - rule : handle unknown or low confidence messages
+#   steps:
+#     - intent: nlu_fallback
+#     - action: action_gemini_reply

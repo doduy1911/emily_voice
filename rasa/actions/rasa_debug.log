@@ -124,3 +124,458 @@
 2025-10-06 13:54:19,703 INFO     Started audio server on port 8486
 2025-10-06 13:54:20,704 INFO     Server is listening on port 8486
 2025-10-06 13:54:43,343 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 14:28:57,428 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 14:28:57,428 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 14:28:57,428 INFO     Checking if port 8486 is available
+2025-10-06 14:28:57,429 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 14:28:57,429 INFO     Started audio server on port 8486
+2025-10-06 14:28:58,430 INFO     Server is listening on port 8486
+2025-10-06 14:34:05,043 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 14:34:05,043 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 14:34:05,043 INFO     Checking if port 8486 is available
+2025-10-06 14:34:05,044 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 14:34:05,044 INFO     Started audio server on port 8486
+2025-10-06 14:34:06,045 INFO     Server is listening on port 8486
+2025-10-06 14:34:59,377 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 14:35:10,879 INFO     Calling Vbee TTS API with text: Xin lỗi,tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé..
+2025-10-06 14:35:10,880 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 14:36:20,408 INFO     Calling Vbee TTS API with text: Xin lỗi,tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé..
+2025-10-06 14:36:20,409 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 14:58:11,584 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 14:58:39,418 INFO     Calling Vbee TTS API with text: Xin lỗi,tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé..
+2025-10-06 14:58:39,419 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 15:03:53,148 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:03:53,148 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:03:53,148 INFO     Checking if port 8486 is available
+2025-10-06 15:03:53,148 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:03:53,148 INFO     Started audio server on port 8486
+2025-10-06 15:03:54,149 INFO     Server is listening on port 8486
+2025-10-06 15:05:01,382 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:05:08,684 INFO     Calling Vbee TTS API with text: Xin lỗi,tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé..
+2025-10-06 15:05:08,684 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 15:14:51,904 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:14:51,904 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:14:51,904 INFO     Checking if port 8486 is available
+2025-10-06 15:14:51,904 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:14:51,905 INFO     Started audio server on port 8486
+2025-10-06 15:14:52,906 INFO     Server is listening on port 8486
+2025-10-06 15:20:25,162 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:20:25,162 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:20:25,162 INFO     Checking if port 8486 is available
+2025-10-06 15:20:25,163 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:20:25,163 INFO     Started audio server on port 8486
+2025-10-06 15:20:26,164 INFO     Server is listening on port 8486
+2025-10-06 15:22:54,635 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:22:54,635 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:22:54,635 INFO     Checking if port 8486 is available
+2025-10-06 15:22:54,635 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:22:54,636 INFO     Started audio server on port 8486
+2025-10-06 15:22:55,637 INFO     Server is listening on port 8486
+2025-10-06 15:23:34,169 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:24:28,170 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:24:36,262 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:24:36,262 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:24:36,262 INFO     Checking if port 8486 is available
+2025-10-06 15:24:36,262 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:24:36,263 INFO     Started audio server on port 8486
+2025-10-06 15:24:37,264 INFO     Server is listening on port 8486
+2025-10-06 15:25:20,720 ERROR    Lỗi gọi Gemini: 'candidates'
+2025-10-06 15:25:36,006 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:25:44,588 ERROR    Lỗi gọi Gemini: 'candidates'
+2025-10-06 15:28:34,562 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:28:34,562 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:28:34,562 INFO     Checking if port 8486 is available
+2025-10-06 15:28:34,562 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:28:34,562 INFO     Started audio server on port 8486
+2025-10-06 15:28:35,563 INFO     Server is listening on port 8486
+2025-10-06 15:29:33,187 ERROR    Lỗi gọi Gemini: 'candidates'
+2025-10-06 15:30:47,028 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:30:47,028 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:30:47,028 INFO     Checking if port 8486 is available
+2025-10-06 15:30:47,028 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:30:47,028 INFO     Started audio server on port 8486
+2025-10-06 15:30:48,029 INFO     Server is listening on port 8486
+2025-10-06 15:31:40,506 ERROR    Gemini API error: models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-06 15:32:40,446 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-06 15:32:47,774 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 15:32:56,826 ERROR    Gemini API error: models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-06 15:39:41,151 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:39:41,151 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:39:41,151 INFO     Checking if port 8486 is available
+2025-10-06 15:39:41,151 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:39:41,151 INFO     Started audio server on port 8486
+2025-10-06 15:39:42,153 INFO     Server is listening on port 8486
+2025-10-06 15:40:22,283 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:40:25,082 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-06 15:40:29,149 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 15:41:02,154 ERROR    Lỗi gọi Gemini: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=10)
+2025-10-06 15:41:20,775 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 15:42:32,082 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:32,425 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:33,883 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:34,380 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:34,729 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:34,950 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:35,135 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:35,296 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:35,477 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:35,663 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:35,846 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:36,448 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:36,637 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:36,826 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:37,005 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:37,188 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:42:39,051 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:44:00,062 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:44:00,062 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:44:00,062 INFO     Checking if port 8486 is available
+2025-10-06 15:44:00,062 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:44:00,062 INFO     Started audio server on port 8486
+2025-10-06 15:44:01,064 INFO     Server is listening on port 8486
+2025-10-06 15:46:54,084 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-06 15:46:56,599 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 15:47:14,237 ERROR    Lỗi gọi Gemini: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=10)
+2025-10-06 15:47:14,237 INFO     Calling Vbee TTS API with text: Lỗi khi gọi Gemini: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=10)
+2025-10-06 15:47:14,237 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 15:49:25,866 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:49:25,867 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:49:25,867 INFO     Checking if port 8486 is available
+2025-10-06 15:49:25,867 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:49:25,867 INFO     Started audio server on port 8486
+2025-10-06 15:49:26,868 INFO     Server is listening on port 8486
+2025-10-06 15:50:50,836 INFO     Calling Vbee TTS API with text: Bây giờ là **13:58:30** (giờ UTC) vào ngày 15 tháng 5 năm 2024.
+
+Nếu bạn đang ở Việt Nam, thì bây giờ là **20:58:30** (giờ Hà Nội/TP.HCM).
+2025-10-06 15:50:50,836 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 15:54:34,909 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:54:34,909 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:54:34,909 INFO     Checking if port 8486 is available
+2025-10-06 15:54:34,909 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:54:34,909 INFO     Started audio server on port 8486
+2025-10-06 15:54:35,910 INFO     Server is listening on port 8486
+2025-10-06 15:55:12,175 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:55:15,947 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 15:56:00,340 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:56:00,340 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 15:56:00,340 INFO     Checking if port 8486 is available
+2025-10-06 15:56:00,340 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 15:56:00,341 INFO     Started audio server on port 8486
+2025-10-06 15:56:01,342 INFO     Server is listening on port 8486
+2025-10-06 15:57:32,583 INFO     Calling Vbee TTS API with text: Bây giờ là 10 giờ 35 phút sáng, Thứ Bảy, ngày 18 tháng 5 năm 2024 (theo giờ UTC).
+
+Nếu bạn ở một múi giờ khác, hãy điều chỉnh cho phù hợp. Ví dụ:
+   Nếu bạn ở Việt Nam, bây giờ là 5 giờ 35 phút chiều (Thứ Bảy, ngày 18 tháng 5 năm 2024).
+2025-10-06 15:57:32,584 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:02:22,357 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:02:22,357 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:02:22,357 INFO     Checking if port 8486 is available
+2025-10-06 16:02:22,357 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:02:22,357 INFO     Started audio server on port 8486
+2025-10-06 16:02:23,359 INFO     Server is listening on port 8486
+2025-10-06 16:03:10,152 INFO     Calling Vbee TTS API with text: Bây giờ là 05:43 theo giờ Việt Nam, Thứ Tư, ngày 29 tháng 5 năm 2024.
+2025-10-06 16:03:10,153 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:06:30,939 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:06:30,939 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:06:30,940 INFO     Checking if port 8486 is available
+2025-10-06 16:06:30,940 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:06:30,940 INFO     Started audio server on port 8486
+2025-10-06 16:06:31,941 INFO     Server is listening on port 8486
+2025-10-06 16:07:11,895 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:07:32,554 INFO     Calling Vbee TTS API with text: Bây giờ là 0 giờ 30 phút sáng (hoặc nửa đêm rưỡi), Thứ Sáu, ngày 31 tháng 5 năm 2024, theo giờ Việt Nam (GMT+7).
+2025-10-06 16:07:32,554 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:20:00,046 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:20:00,046 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:20:00,046 INFO     Checking if port 8486 is available
+2025-10-06 16:20:00,046 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:20:00,046 INFO     Started audio server on port 8486
+2025-10-06 16:20:01,048 INFO     Server is listening on port 8486
+2025-10-06 16:21:05,766 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:21:14,932 INFO     Calling Vbee TTS API with text: Bây giờ là 19:07 (bảy giờ bảy phút tối).
+2025-10-06 16:21:14,932 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:28:53,408 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:28:53,409 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:28:53,409 INFO     Checking if port 8486 is available
+2025-10-06 16:28:53,409 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:28:53,409 INFO     Started audio server on port 8486
+2025-10-06 16:28:54,410 INFO     Server is listening on port 8486
+2025-10-06 16:29:39,390 ERROR    Gemini API error: The model is overloaded. Please try again later.
+2025-10-06 16:29:39,391 INFO     Calling Vbee TTS API with text: Lỗi từ Gemini API: The model is overloaded. Please try again later.
+2025-10-06 16:29:39,392 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:29:58,388 INFO     Calling Vbee TTS API with text: Xin lỗi, tôi là một mô hình ngôn ngữ AI nên không biết hôm nay là ngày nào trong tuần.
+
+Để biết hôm nay là thứ mấy, bạn có thể:
+   Nhìn vào đồng hồ, điện thoại hoặc máy tính của bạn.
+   Kiểm tra lịch.
+2025-10-06 16:29:58,388 ERROR    TTS error: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:32:14,829 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:32:14,829 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:32:14,829 INFO     Checking if port 8486 is available
+2025-10-06 16:32:14,829 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:32:14,829 INFO     Started audio server on port 8486
+2025-10-06 16:32:15,830 INFO     Server is listening on port 8486
+2025-10-06 16:33:54,088 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:33:54,088 INFO     [TTS] Input text = Tôi là nữ, tên tôi là Emily, nhìn bạn rất tuyệt vời, bạn có cần tôi giúp gì không ?
+2025-10-06 16:33:54,088 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/d143644d31e6260e4fcfcfcc80a8d73d.mp3
+2025-10-06 16:33:54,088 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/d143644d31e6260e4fcfcfcc80a8d73d.mp3
+2025-10-06 16:33:54,088 INFO     Calling Vbee TTS API with text: Tôi là nữ, tên tôi là Emily, nhìn bạn rất tuyệt vời, bạn có cần tôi giúp gì không ?
+2025-10-06 16:33:54,088 ERROR    [TTS] Exception: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-10-06 16:35:25,210 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:35:25,210 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:35:25,210 INFO     Checking if port 8486 is available
+2025-10-06 16:35:25,210 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:35:25,210 INFO     Started audio server on port 8486
+2025-10-06 16:35:26,211 INFO     Server is listening on port 8486
+2025-10-06 16:36:07,275 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:36:07,275 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:36:07,275 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-06 16:36:07,275 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-06 16:36:07,275 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:36:39,102 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:36:39,102 INFO     [TTS] Input text = Bão là một hiện tượng thời tiết cực đoan và nguy hiểm, được định nghĩa khoa học là xoáy thuận nhiệt đới (tropical cyclone). Nó hình thành trên các vùng biển ấm và có đặc điểm chính là:
+
+1.  Gió mạnh xoáy tròn: Bão có một vùng tâm áp thấp (gọi là "mắt bão") xung quanh đó là những luồng gió rất mạnh xoáy theo hình xoắn ốc. Ở Bắc bán cầu, gió xoáy ngược chiều kim đồng hồ; ở Nam bán cầu, gió xoáy cùng chiều kim đồng hồ.
+2.  Mưa lớn: Kèm theo gió mạnh là những trận mưa rất lớn, kéo dài, thường gây ra lũ lụt và sạt lở đất.
+3.  Sóng biển lớn và nước dâng do bão: Gió bão tạo ra những con sóng lớn, và đặc biệt nguy hiểm là hiện tượng nước biển dâng cao bất thường do áp suất thấp và gió đẩy nước vào bờ (gọi là "nước dâng do bão" hay storm surge), gây ngập lụt nghiêm trọng các vùng ven biển.
+
+Phân loại theo sức gió (ở Việt Nam và nhiều nơi khác):
+
+Tùy theo tốc độ gió duy trì tối đa, xoáy thuận nhiệt đới được phân loại:
+
+   Áp thấp nhiệt đới (ATNĐ): Sức gió mạnh nhất từ 39-61 km/h (cấp 6-7).
+   Bão (Tropical Storm/Typhoon/Hurricane): Sức gió mạnh nhất từ 62 km/h trở lên (từ cấp 8 trở lên).
+       Trong đó, những cơn bão có sức gió cực mạnh (ví dụ trên 118 km/h hay cấp 12 trở lên) thường được gọi là bão mạnh hoặc siêu bão (Super Typhoon/Major Hurricane).
+
+Tên gọi trên thế giới:
+
+"Bão" là từ tiếng Việt. Trên thế giới, tùy theo khu vực hình thành mà xoáy thuận nhiệt đới có các tên gọi khác nhau:
+
+   Typhoon: Ở Tây Thái Bình Dương (khu vực châu Á).
+   Hurricane: Ở Đại Tây Dương và Đông Bắc Thái Bình Dương (khu vực châu Mỹ).
+   Cyclone: Ở Ấn Độ Dương và Nam Thái Bình Dương.
+
+Tóm lại, bão là một hệ thống thời tiết khổng lồ với gió xoáy cực mạnh, mưa lớn và sóng biển dữ dội, gây ra những thiệt hại nặng nề về người và tài sản cho các khu vực ven biển và đất liền khi nó đổ bộ.
+2025-10-06 16:36:39,102 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/1ea6a838d35817c0689519bb2179c79f.mp3
+2025-10-06 16:36:39,102 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/1ea6a838d35817c0689519bb2179c79f.mp3
+2025-10-06 16:36:39,102 INFO     Calling Vbee TTS API with text: Bão là một hiện tượng thời tiết cực đoan và nguy hiểm, được định nghĩa khoa học là xoáy thuận nhiệt đới (tropical cyclone). Nó hình thành trên các vùng biển ấm và có đặc điểm chính là:
+
+1.  Gió mạnh xoáy tròn: Bão có một vùng tâm áp thấp (gọi là "mắt bão") xung quanh đó là những luồng gió rất mạnh xoáy theo hình xoắn ốc. Ở Bắc bán cầu, gió xoáy ngược chiều kim đồng hồ; ở Nam bán cầu, gió xoáy cùng chiều kim đồng hồ.
+2.  Mưa lớn: Kèm theo gió mạnh là những trận mưa rất lớn, kéo dài, thường gây ra lũ lụt và sạt lở đất.
+3.  Sóng biển lớn và nước dâng do bão: Gió bão tạo ra những con sóng lớn, và đặc biệt nguy hiểm là hiện tượng nước biển dâng cao bất thường do áp suất thấp và gió đẩy nước vào bờ (gọi là "nước dâng do bão" hay storm surge), gây ngập lụt nghiêm trọng các vùng ven biển.
+
+Phân loại theo sức gió (ở Việt Nam và nhiều nơi khác):
+
+Tùy theo tốc độ gió duy trì tối đa, xoáy thuận nhiệt đới được phân loại:
+
+   Áp thấp nhiệt đới (ATNĐ): Sức gió mạnh nhất từ 39-61 km/h (cấp 6-7).
+   Bão (Tropical Storm/Typhoon/Hurricane): Sức gió mạnh nhất từ 62 km/h trở lên (từ cấp 8 trở lên).
+       Trong đó, những cơn bão có sức gió cực mạnh (ví dụ trên 118 km/h hay cấp 12 trở lên) thường được gọi là bão mạnh hoặc siêu bão (Super Typhoon/Major Hurricane).
+
+Tên gọi trên thế giới:
+
+"Bão" là từ tiếng Việt. Trên thế giới, tùy theo khu vực hình thành mà xoáy thuận nhiệt đới có các tên gọi khác nhau:
+
+   Typhoon: Ở Tây Thái Bình Dương (khu vực châu Á).
+   Hurricane: Ở Đại Tây Dương và Đông Bắc Thái Bình Dương (khu vực châu Mỹ).
+   Cyclone: Ở Ấn Độ Dương và Nam Thái Bình Dương.
+
+Tóm lại, bão là một hệ thống thời tiết khổng lồ với gió xoáy cực mạnh, mưa lớn và sóng biển dữ dội, gây ra những thiệt hại nặng nề về người và tài sản cho các khu vực ven biển và đất liền khi nó đổ bộ.
+2025-10-06 16:36:39,346 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:36:39,346 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":1786,"request_id":"9b5ae2f8-615b-4258-93a8-2a22326ab518","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:36:39,346 INFO     [TTS] Got request_id: 9b5ae2f8-615b-4258-93a8-2a22326ab518
+2025-10-06 16:40:51,204 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:40:51,204 INFO     [TTS] Input text = Bây giờ là 17:40 (năm giờ bốn mươi phút chiều) Thứ Ba, ngày 28 tháng 5 năm 2024 (theo múi giờ UTC).
+2025-10-06 16:40:51,204 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/03c8c64531b76b26f75de1d8953bcfb8.mp3
+2025-10-06 16:40:51,204 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/03c8c64531b76b26f75de1d8953bcfb8.mp3
+2025-10-06 16:40:51,204 INFO     Calling Vbee TTS API with text: Bây giờ là 17:40 (năm giờ bốn mươi phút chiều) Thứ Ba, ngày 28 tháng 5 năm 2024 (theo múi giờ UTC).
+2025-10-06 16:40:51,423 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:40:51,423 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":99,"request_id":"e42460b8-1327-4077-8d69-996dfe1ba981","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:40:51,423 INFO     [TTS] Got request_id: e42460b8-1327-4077-8d69-996dfe1ba981
+2025-10-06 16:41:01,214 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:41:01,214 INFO     [TTS] Input text = Vui lòng cho tôi biết tên của bạn.
+2025-10-06 16:41:01,214 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-06 16:41:01,214 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-06 16:41:01,214 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-06 16:41:04,350 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:41:04,350 INFO     [TTS] Input text = Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 16:41:04,351 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/19ab2d702271c6f0042de720038ae176.mp3
+2025-10-06 16:41:04,351 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/19ab2d702271c6f0042de720038ae176.mp3
+2025-10-06 16:41:04,351 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-06 16:41:16,070 INFO     Attempting to login...
+2025-10-06 16:41:16,102 ERROR    Login failed: 401 - {"status":401,"message":"Invalid username or password","errorCode":10,"timestamp":1759743676107}
+2025-10-06 16:41:16,103 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:41:16,103 INFO     [TTS] Input text = Lỗi đăng nhập hệ thống
+2025-10-06 16:41:16,103 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-06 16:41:16,103 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-06 16:41:16,103 INFO     Calling Vbee TTS API with text: Lỗi đăng nhập hệ thống
+2025-10-06 16:41:19,422 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:41:19,423 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":22,"request_id":"4bfbc7bf-86d9-4a4e-bb69-60dc0a3910b5","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:41:19,423 INFO     [TTS] Got request_id: 4bfbc7bf-86d9-4a4e-bb69-60dc0a3910b5
+2025-10-06 16:42:06,759 INFO     Attempting to login...
+2025-10-06 16:42:06,789 ERROR    Login failed: 401 - {"status":401,"message":"Invalid username or password","errorCode":10,"timestamp":1759743726793}
+2025-10-06 16:42:06,789 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:42:06,789 INFO     [TTS] Input text = Lỗi đăng nhập hệ thống
+2025-10-06 16:42:06,789 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-06 16:42:06,789 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-06 16:42:06,789 INFO     Calling Vbee TTS API with text: Lỗi đăng nhập hệ thống
+2025-10-06 16:42:07,064 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:42:07,064 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":22,"request_id":"375bdf48-3ca4-4f33-923a-234ede15aa5a","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:42:07,064 INFO     [TTS] Got request_id: 375bdf48-3ca4-4f33-923a-234ede15aa5a
+2025-10-06 16:43:52,298 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:43:52,298 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:43:52,298 INFO     Checking if port 8486 is available
+2025-10-06 16:43:52,298 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:43:52,299 INFO     Started audio server on port 8486
+2025-10-06 16:43:53,300 INFO     Server is listening on port 8486
+2025-10-06 16:44:30,078 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:44:30,078 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:44:30,078 INFO     Checking if port 8486 is available
+2025-10-06 16:44:30,078 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:44:30,079 INFO     Started audio server on port 8486
+2025-10-06 16:44:31,080 INFO     Server is listening on port 8486
+2025-10-06 16:46:09,398 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:46:09,398 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:46:09,398 INFO     Checking if port 8486 is available
+2025-10-06 16:46:09,398 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:46:09,398 INFO     Started audio server on port 8486
+2025-10-06 16:46:10,399 INFO     Server is listening on port 8486
+2025-10-06 16:47:11,196 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:47:11,196 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:47:11,196 INFO     Checking if port 8486 is available
+2025-10-06 16:47:11,196 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:47:11,196 INFO     Started audio server on port 8486
+2025-10-06 16:47:12,198 INFO     Server is listening on port 8486
+2025-10-06 16:47:55,154 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:47:55,154 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:47:55,154 INFO     Checking if port 8486 is available
+2025-10-06 16:47:55,154 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:47:55,154 INFO     Started audio server on port 8486
+2025-10-06 16:47:56,155 INFO     Server is listening on port 8486
+2025-10-06 16:48:28,805 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:48:28,805 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:48:28,805 INFO     Checking if port 8486 is available
+2025-10-06 16:48:28,805 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:48:28,806 INFO     Started audio server on port 8486
+2025-10-06 16:48:29,807 INFO     Server is listening on port 8486
+2025-10-06 16:48:48,009 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:48:48,009 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:48:48,009 INFO     Checking if port 8486 is available
+2025-10-06 16:48:48,010 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:48:48,010 INFO     Started audio server on port 8486
+2025-10-06 16:48:49,011 INFO     Server is listening on port 8486
+2025-10-06 16:49:53,220 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:49:53,220 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:49:53,221 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-06 16:49:53,221 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-06 16:49:53,221 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-06 16:50:04,227 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:50:04,227 INFO     [TTS] Input text = Bây giờ là [Giờ hiện tại của bạn] giờ [Phút hiện tại của bạn] phút.
+
+Ví dụ: Nếu bây giờ là 10:35 sáng, tôi sẽ nói "Bây giờ là 10 giờ 35 phút."
+2025-10-06 16:50:04,227 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/6bc6432a5caaa19b69d01d5b4e690fe3.mp3
+2025-10-06 16:50:04,228 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/6bc6432a5caaa19b69d01d5b4e690fe3.mp3
+2025-10-06 16:50:04,228 INFO     Calling Vbee TTS API with text: Bây giờ là [Giờ hiện tại của bạn] giờ [Phút hiện tại của bạn] phút.
+
+Ví dụ: Nếu bây giờ là 10:35 sáng, tôi sẽ nói "Bây giờ là 10 giờ 35 phút."
+2025-10-06 16:50:04,430 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:50:04,430 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":142,"request_id":"9a7ccc9d-572f-4503-86ec-0e9cb8520618","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:50:04,430 INFO     [TTS] Got request_id: 9a7ccc9d-572f-4503-86ec-0e9cb8520618
+2025-10-06 16:50:14,611 INFO     Attempting to login...
+2025-10-06 16:50:14,956 INFO     Login successful
+2025-10-06 16:50:14,956 INFO     Fetching house info...
+2025-10-06 16:50:14,969 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-06 16:50:14,969 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:15,000 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-06 16:50:15,000 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-06 16:50:15,000 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:15,021 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '6843faa0-953b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 872, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'c5a6f520-9834-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 876, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'd37df870-984c-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 882, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}]
+2025-10-06 16:50:15,022 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-06 16:50:15,058 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:50:15,058 INFO     [TTS] Input text = Đã tắt đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:15,058 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/f8015e7ef4716eeb65233925ff696fde.mp3
+2025-10-06 16:50:15,058 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/f8015e7ef4716eeb65233925ff696fde.mp3
+2025-10-06 16:50:15,058 INFO     Calling Vbee TTS API with text: Đã tắt đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:15,241 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:50:15,241 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":51,"request_id":"8020dccd-2e6a-4f3a-9157-743749c1d207","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:50:15,241 INFO     [TTS] Got request_id: 8020dccd-2e6a-4f3a-9157-743749c1d207
+2025-10-06 16:50:22,505 INFO     Fetching house info...
+2025-10-06 16:50:22,536 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-06 16:50:22,536 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:22,564 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-06 16:50:22,564 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-06 16:50:22,564 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:22,596 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '6843faa0-953b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 872, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'c5a6f520-9834-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 876, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'd37df870-984c-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 882, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}]
+2025-10-06 16:50:22,596 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-06 16:50:22,621 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:50:22,621 INFO     [TTS] Input text = Đã bật đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:22,621 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/1216b9a02fca931aeb028cbdc61e0938.mp3
+2025-10-06 16:50:22,621 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/1216b9a02fca931aeb028cbdc61e0938.mp3
+2025-10-06 16:50:22,621 INFO     Returning cached audio URL for text: Đã bật đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:44,225 INFO     Fetching house info...
+2025-10-06 16:50:44,235 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-06 16:50:44,235 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:44,261 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-06 16:50:44,261 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-06 16:50:44,261 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-06 16:50:44,280 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '6843faa0-953b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 872, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'c5a6f520-9834-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 876, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'd37df870-984c-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 882, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}]
+2025-10-06 16:50:44,280 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-06 16:50:44,318 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:50:44,318 INFO     [TTS] Input text = Đã tắt đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:44,318 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/f8015e7ef4716eeb65233925ff696fde.mp3
+2025-10-06 16:50:44,318 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/f8015e7ef4716eeb65233925ff696fde.mp3
+2025-10-06 16:50:44,318 INFO     Calling Vbee TTS API with text: Đã tắt đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-06 16:50:44,608 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:50:44,608 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":51,"request_id":"e1bdce47-9887-411d-a09f-11c01933367d","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:50:44,608 INFO     [TTS] Got request_id: e1bdce47-9887-411d-a09f-11c01933367d
+2025-10-06 16:52:06,410 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:52:06,411 INFO     [TTS] Input text = Bây giờ là 13:00 (một giờ chiều), ngày 23 tháng 5 năm 2024 (theo giờ Việt Nam).
+2025-10-06 16:52:06,411 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/abc506c365194a3c42bf6c38fa629fe6.mp3
+2025-10-06 16:52:06,411 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/abc506c365194a3c42bf6c38fa629fe6.mp3
+2025-10-06 16:52:06,411 INFO     Calling Vbee TTS API with text: Bây giờ là 13:00 (một giờ chiều), ngày 23 tháng 5 năm 2024 (theo giờ Việt Nam).
+2025-10-06 16:52:06,595 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:52:06,595 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":79,"request_id":"423a9f40-95c7-47ef-bf4b-7b9297a1ae99","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:52:06,595 INFO     [TTS] Got request_id: 423a9f40-95c7-47ef-bf4b-7b9297a1ae99
+2025-10-06 16:54:00,597 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:54:00,597 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:54:00,597 INFO     Checking if port 8486 is available
+2025-10-06 16:54:00,597 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:54:00,597 INFO     Started audio server on port 8486
+2025-10-06 16:54:01,598 INFO     Server is listening on port 8486
+2025-10-06 16:55:07,226 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:55:07,227 INFO     [TTS] Input text = Bây giờ là 04:30 (chiều) ngày 17 tháng 5 năm 2024 (UTC).
+
+Nếu bạn đang ở múi giờ Việt Nam (ICT), thì bây giờ là 11:30 sáng ngày 17 tháng 5 năm 2024.
+2025-10-06 16:55:07,227 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/619094b8885f3947fd50ac415c9447df.mp3
+2025-10-06 16:55:07,227 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/619094b8885f3947fd50ac415c9447df.mp3
+2025-10-06 16:55:07,227 INFO     Calling Vbee TTS API with text: Bây giờ là 04:30 (chiều) ngày 17 tháng 5 năm 2024 (UTC).
+
+Nếu bạn đang ở múi giờ Việt Nam (ICT), thì bây giờ là 11:30 sáng ngày 17 tháng 5 năm 2024.
+2025-10-06 16:55:07,440 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:55:07,440 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":148,"request_id":"a35cbbd0-acd4-4fe3-9474-81a7f1ca7124","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:55:07,441 INFO     [TTS] Got request_id: a35cbbd0-acd4-4fe3-9474-81a7f1ca7124
+2025-10-06 16:57:47,870 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:57:47,870 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 16:57:47,870 INFO     Checking if port 8486 is available
+2025-10-06 16:57:47,870 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 16:57:47,870 INFO     Started audio server on port 8486
+2025-10-06 16:57:48,872 INFO     Server is listening on port 8486
+2025-10-06 16:58:47,495 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-06 16:58:47,495 INFO     [TTS] Input text = Bây giờ là 17:00:05 (Thứ Tư, 29 tháng 5 năm 2024, giờ UTC).
+
+Để biết chính xác giờ ở vị trí của bạn, tôi cần biết bạn đang ở đâu.
+2025-10-06 16:58:47,495 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/2e88c070743b7b26baf5068987d164df.mp3
+2025-10-06 16:58:47,495 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/2e88c070743b7b26baf5068987d164df.mp3
+2025-10-06 16:58:47,495 INFO     Calling Vbee TTS API with text: Bây giờ là 17:00:05 (Thứ Tư, 29 tháng 5 năm 2024, giờ UTC).
+
+Để biết chính xác giờ ở vị trí của bạn, tôi cần biết bạn đang ở đâu.
+2025-10-06 16:58:47,754 INFO     [TTS] Vbee POST status: 200
+2025-10-06 16:58:47,754 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":129,"request_id":"0ee174bc-7a74-4470-8433-3a85d5eed860","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-06 16:58:47,754 INFO     [TTS] Got request_id: 0ee174bc-7a74-4470-8433-3a85d5eed860
+2025-10-06 16:58:47,754 INFO     [TTS] Start polling VBEE for status...
+2025-10-06 16:58:48,900 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-06 16:58:50,041 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-06 16:58:51,189 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-06 16:58:52,331 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-06 16:58:53,499 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-06 16:58:54,696 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-06 16:58:55,310 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/2e88c070743b7b26baf5068987d164df.mp3

@@ -123,4 +123,4 @@ stories:
 - story: Fallback
   steps:
   - intent: fallback
-  - action: action_fallback
+  - action: action_gemini_reply

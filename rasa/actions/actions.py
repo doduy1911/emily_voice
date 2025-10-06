@@ -11,6 +11,9 @@ import time
 import threading
 from http.server import SimpleHTTPRequestHandler
 from socketserver import TCPServer
+import re
+from dotenv import load_dotenv
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -23,6 +26,8 @@ file_handler = logging.FileHandler(f"{BASE_DIR}/rasa_debug.log")
 file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(message)s'))
 logger.addHandler(file_handler)
 logger.addHandler(logging.StreamHandler())
+load_dotenv()  
+print("[DEBUG] VBEE_API_URL =", os.getenv("USERNAME"))
 
 BACKEND_URL = os.getenv("BACKEND_URL")
 VBEE_API_URL = os.getenv("VBEE_API_URL")
@@ -33,7 +38,8 @@ USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
 CACHE_DIR = f"{BASE_DIR}/rasa/cache"
 AUDIO_SERVER_PORT = 8486
-AUDIO_BASE_URL = os.getenv("AUDIO_BASE_URL")
+AUDIO_BASE_URL = f"http://118.70.187.211:{AUDIO_SERVER_PORT}/audio"
+API_GEMINI = "AIzaSyA_3VNqz-NyWbxZZgh1fB3lZMQy8pnktZU"
 
 # Khởi động server HTTP để phục vụ file âm thanh từ cache
 class CacheFileHandler(SimpleHTTPRequestHandler):
@@ -125,6 +131,35 @@ def start_audio_server():
         else:
             logger.error(f"Server failed to start on port {AUDIO_SERVER_PORT}")
             raise RuntimeError("Server failed to start")
+        
+def ask_gemini(prompt: str) -> str:
+    if not API_GEMINI:
+        return "Chưa cấu hình khóa API cho Gemini."
+    url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={API_GEMINI}"
+    headers = {"Content-Type": "application/json"}
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+
+    try:
+        res = requests.post(url, headers=headers, json=payload, timeout=30)
+        data = res.json()
+
+        # kiểm tra phản hồi lỗi
+        if "error" in data:
+            msg = data["error"].get("message", "Không rõ lỗi.")
+            logger.error(f"Gemini API error: {msg}")
+            return f"Lỗi từ Gemini API: {msg}"
+
+        # kiểm tra candidates tồn tại
+        if "candidates" not in data or not data["candidates"]:
+            logger.error(f"Gemini không trả về candidates: {data}")
+            return "Gemini không trả về câu trả lời."
+
+        return data["candidates"][0]["content"]["parts"][0]["text"]
+
+    except Exception as e:
+        logger.error(f"Lỗi gọi Gemini: {e}")
+        return f"Lỗi khi gọi Gemini: {str(e)}"
+
 
 # Chạy server HTTP khi khởi động
 try:
@@ -325,6 +360,9 @@ class DeviceController:
     @staticmethod
     def text_to_speech(dispatcher: CollectingDispatcher, text: str) -> str:
         """Chuyển văn bản thành giọng nói, lưu vào cache và trả về URL"""
+        logger.info(f"[TTS] AUDIO_BASE_URL = {AUDIO_BASE_URL}")
+        logger.info(f"[TTS] Input text = {text}")
+
         if not text:
             logger.error("No text provided for TTS")
             return None
@@ -332,6 +370,8 @@ class DeviceController:
         cache_file = DeviceController._get_cache_file_path(text)
         cache_filename = os.path.basename(cache_file)
         audio_url = f"{AUDIO_BASE_URL}/{cache_filename}"
+        logger.info(f"[TTS] Cache file: {cache_file}")
+        logger.info(f"[TTS] Audio URL to return: {audio_url}")
 
         if os.path.exists(cache_file):
             logger.info(f"Returning cached audio URL for text: {text}")
@@ -352,60 +392,74 @@ class DeviceController:
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {VBEE_API_TOKEN}"
             }
+
             response = requests.post(VBEE_API_URL, json=payload, headers=headers, timeout=15)
+            logger.info(f"[TTS] Vbee POST status: {response.status_code}")
+            logger.info(f"[TTS] Vbee POST response: {response.text[:500]}")
+
             if response.status_code == 200:
                 response_data = response.json()
                 if response_data.get("status") == 1:
                     request_id = response_data["result"]["request_id"]
+                    logger.info(f"[TTS] Got request_id: {request_id}")
                     max_attempts = 20
                     attempt = 0
+                    logger.info(f"[TTS] Start polling VBEE for status...")
+
                     while attempt < max_attempts:
+                        time.sleep(1)
                         status_response = requests.get(
                             f"{VBEE_API_URL}/{request_id}",
                             headers=headers,
                             timeout=15
                         )
+                        logger.info(f"[TTS] Poll attempt {attempt + 1}/{max_attempts}: {status_response.status_code}")
+
                         if status_response.status_code == 200:
                             status_data = status_response.json()
-                            if status_data.get("status") == 1 and status_data["result"]["status"] in ["SUCCESS", "DONE"]:
-                                audio_url_vbee = status_data["result"].get("audio_link") or status_data["result"].get("audio_url")
+                            result = status_data.get("result", {})
+                            state = result.get("status")
+
+                            if state in ["SUCCESS", "DONE"]:
+                                audio_url_vbee = result.get("audio_link") or result.get("audio_url")
                                 if not audio_url_vbee:
-                                    logger.error(f"No audio URL in response: {status_data}")
-                                    dispatcher.utter_message(text="Lỗi: Không tìm thấy URL âm thanh")
+                                    logger.error(f"[TTS] No audio URL found in result: {result}")
                                     return None
+
+                                # Tải file audio về cache
                                 audio_response = requests.get(audio_url_vbee, timeout=15)
                                 if audio_response.status_code == 200:
                                     with open(cache_file, 'wb') as f:
                                         f.write(audio_response.content)
-                                    logger.info(f"Cached audio for text: {text}")
+                                    logger.info(f"[TTS] Saved cached audio: {cache_file}")
                                     return audio_url
-                                logger.error(f"Failed to download audio: {audio_response.status_code}")
-                                dispatcher.utter_message(text="Lỗi khi tải âm thanh từ Vbee")
-                                return None
-                            elif status_data["result"]["status"] == "IN_PROGRESS":
-                                time.sleep(0.5)
+                                else:
+                                    logger.error(f"[TTS] Failed to download audio ({audio_response.status_code})")
+                                    return None
+
+                            elif state == "IN_PROGRESS":
                                 attempt += 1
+                                continue
                             else:
-                                logger.error(f"TTS failed: {status_data.get('result')}")
-                                dispatcher.utter_message(text="Lỗi khi chuyển văn bản thành giọng nói")
+                                logger.error(f"[TTS] Unexpected VBEE state: {state}")
                                 return None
                         else:
-                            logger.error(f"Status check failed: {status_response.status_code}")
-                            dispatcher.utter_message(text="Lỗi khi kiểm tra trạng thái âm thanh")
+                            logger.error(f"[TTS] Failed to poll VBEE status ({status_response.status_code})")
                             return None
-                    logger.error("Max attempts reached, TTS not completed")
-                    dispatcher.utter_message(text="Lỗi: Thời gian xử lý âm thanh quá lâu")
+
+                    logger.error("[TTS] Timeout: max attempts reached without success")
                     return None
+
                 else:
-                    logger.error(f"TTS API error: {response_data}")
-                    dispatcher.utter_message(text="Lỗi khi chuyển văn bản thành giọng nói")
+                    logger.error(f"[TTS] API returned error status: {response_data}")
                     return None
             else:
-                logger.error(f"TTS API failed: {response.status_code}")
-                dispatcher.utter_message(text="Lỗi khi gọi API giọng nói")
+                logger.error(f"[TTS] Vbee API failed with status: {response.status_code}")
                 return None
+
         except Exception as e:
-            logger.error(f"TTS error: {str(e)}")
+            logger.error(f"[TTS] Exception: {e}")
+            import traceback; traceback.print_exc()
             dispatcher.utter_message(text="Lỗi khi chuyển văn bản thành giọng nói")
             return None
 
@@ -1056,7 +1110,33 @@ class ActionFallback(Action):
         return "action_fallback"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        response_text = "Xin lỗi, câu hỏi của bạn tôi không đáng để trả lời hoặc tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé.."
+        response_text = "Xin lỗi,tôi chưa có đủ dữ liệu, vì vậy vui lòng hỏi các câu hỏi khác bạn nhé.."
         audio_url = DeviceController.text_to_speech(dispatcher, response_text)
         dispatcher.utter_message(text=response_text, custom={"audio_url": audio_url})
+        return []
+    
+class ActionGeminiReply(Action):
+    def name(self) -> Text:
+        return "action_gemini_reply"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        user_msg = tracker.latest_message.get("text")
+        answer = ask_gemini(user_msg)
+
+        # Làm sạch văn bản trước khi chuyển sang giọng nói
+        clean_answer = re.sub(r"[*_`~]", "", answer).strip()
+
+        audio_url = None
+        try:
+            audio_url = DeviceController.text_to_speech(dispatcher, clean_answer)
+        except Exception as e:
+            logger.error(f"Lỗi khi chuyển văn bản thành giọng nói: {e}")
+
+        # Gửi cả text và audio (nếu có) xuống frontend
+        dispatcher.utter_message(text=answer, custom={"audio_url": audio_url})
         return []

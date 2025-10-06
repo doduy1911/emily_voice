@@ -138,6 +138,8 @@ actions:
   - action_ask_love_advice
   - action_set_color
   - action_fallback
+  - action_gemini_reply
+
 
 session_config:
   session_expiration_time: 60
