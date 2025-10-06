@@ -1,0 +1,4483 @@
+[
+  [
+    {
+      "text": "xin",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "chào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hello",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "good",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "morning",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "emily",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "buổi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thể",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "làm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giúp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "được",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thể",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "làm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "được",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giúp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "không",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "emily",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "làm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "được",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hỗ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trợ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Khánh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Hoàng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Duy",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Nghĩa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Thơ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tôi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "Điệp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-user_name",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "kiểm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tra",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiêu",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "nhà",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiêu",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiêu",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhà",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "liệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kê",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "các",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "nhà",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "mình",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "những",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiêu",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bị",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bếp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "kiểm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tra",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bị",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khách",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ngủ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "những",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bị",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "liệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kê",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bị",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khách",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "thiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bị",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bếp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhỏ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "to",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "công",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "4",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nút",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "led",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bật",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "mở",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhỏ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khách",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "mở",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhỏ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "to",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "công",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "4",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nút",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "led",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "ngắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhỏ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trong",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bếp",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-room",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tăng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhỏ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "còn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "10",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-brightness",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "giảm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "to",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "còn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "50",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-brightness",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chỉnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "led",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "20",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-brightness",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "I-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "to",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "100",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-brightness",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tăng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sáng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đèn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "led",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đến",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "30",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-brightness",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tăng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tốc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "về",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "số",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "1",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-fan_speed",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "giảm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tốc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "về",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "số",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "3",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-fan_speed",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chỉnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tốc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "5",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-fan_speed",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tốc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quạt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "6",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-fan_speed",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chuyển",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sang",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kênh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "1",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_channel",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chuyển",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kênh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "2",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_channel",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đổi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sang",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kênh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "10",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_channel",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chuyển",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sang",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kênh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "50",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_channel",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "mở",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kênh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "100",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_channel",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tăng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "âm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lượng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "giảm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "âm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lượng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chỉnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "âm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lượng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "50",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_volume",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "âm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lượng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "100",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_volume",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "50",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-tv_volume",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tăng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "giảm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chỉnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "còn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "27",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-ac_temperature",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nhiệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "24",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-ac_temperature",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "27",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-ac_temperature",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-ac_temperature",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "để",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "chế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "lạnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-ac_mode",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "cho",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chỉnh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sang",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "chế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khô",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-ac_mode",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "chế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tự",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-ac_mode",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "động",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-ac_mode",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "chế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ấm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-ac_mode",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "cho",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hẹn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giờ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "30",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phút",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giờ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "1",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tiếng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hẹn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "điều",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hòa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "0.5",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hẹn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giờ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "30",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phút",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đặt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giờ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "1",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "B-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tiếng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "L-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hẹn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "TV",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-device",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tắt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sau",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "0.5",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "U-timer",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hôm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "cảm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thấy",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "vui",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "không",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tâm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trạng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hôm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ra",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "nhiệt",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "độ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hôm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thế",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "hôm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trời",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nắng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "không",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "mưa",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "không",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "thời",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tiết",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hôm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ra",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sao",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tìm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khách",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quanh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đây",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "nhà",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hàng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đây",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "có",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "tìm",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thông",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tin",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "khách",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "sạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "giá",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "phòng",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "đồ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ăn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đồ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "uống",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "quanh",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đây",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "dịch",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "vụ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tiện",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "ích",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gần",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "đây",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nam",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nữ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "emily",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nam",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hay",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nữ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "giới",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "tính",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "của",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "bạn",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "là",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "gì",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "bất",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "kỳ",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "câu",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "hỏi",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "nào",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "không",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "thuộc",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "các",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "intent",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    },
+    {
+      "text": "trên",
+      "pos_tag": null,
+      "pattern": {},
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ]
+]

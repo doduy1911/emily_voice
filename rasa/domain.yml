@@ -1,0 +1,144 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_capabilities
+  - provide_user_name
+  - check_rooms
+  - check_devices_in_room
+  - turn_on
+  - turn_off
+  - set_brightness
+  - set_fan_speed
+  - change_tv_channel
+  - adjust_tv_volume
+  - set_ac_temperature
+  - set_ac_mode
+  - set_ac_timer
+  - set_tv_timer
+  - ask_mood
+  - ask_weather
+  - search_hotel_restaurant
+  - ask_gender
+  - ask_love_advice
+  - set_color
+  - fallback
+
+entities:
+  - user_name
+  - room
+  - device
+  - brightness
+  - fan_speed
+  - tv_channel
+  - tv_volume
+  - ac_temperature
+  - ac_mode
+  - timer
+  - color
+
+slots:
+  user_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user_name
+  room:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: room
+  device:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: device
+  brightness:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: brightness
+  fan_speed:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: fan_speed
+  tv_channel:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: tv_channel
+  tv_volume:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: tv_volume
+  ac_temperature:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: ac_temperature
+  ac_mode:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: ac_mode
+  timer:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: timer
+  color:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: color
+  token:
+    type: text
+    mappings:
+    - type: custom
+  house:
+    type: text
+    mappings:
+    - type: custom
+  device_id:
+    type: text
+    mappings:
+    - type: custom
+
+responses:
+  utter_ask_tv_volume:
+    - text: "Bạn muốn tăng/giảm âm lượng là bao nhiêu?"
+  utter_ask_ac_temperature:
+    - text: "Bạn muốn tăng/giảm nhiệt độ điều hòa là bao nhiêu ?"
+  utter_set_color:
+    - text: "Đã đổi màu {device} thành {color}, bạn có cần hỗ trợ thêm không ?"
+  utter_ask_brightness:
+    - text: "Vui lòng cung cấp độ sáng từ 0 đến 100"
+
+actions:
+  - action_greet
+  - action_ask_capabilities
+  - action_provide_user_name
+  - action_check_rooms
+  - action_check_devices_in_room
+  - action_turn_on
+  - action_turn_off
+  - action_set_brightness
+  - action_set_fan_speed
+  - action_change_tv_channel
+  - action_adjust_tv_volume
+  - action_set_ac_temperature
+  - action_set_ac_mode
+  - action_set_ac_timer
+  - action_set_tv_timer
+  - action_ask_mood
+  - action_ask_weather
+  - action_search_hotel_restaurant
+  - action_ask_gender
+  - action_ask_love_advice
+  - action_set_color
+  - action_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

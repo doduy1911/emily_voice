@@ -1,0 +1,11 @@
+{
+  "0": "check_devices_in_room",
+  "1": "check_rooms",
+  "2": "greet",
+  "3": "set_brightness",
+  "4": "set_color",
+  "5": "set_fan_speed",
+  "6": "set_timer",
+  "7": "turn_off_device",
+  "8": "turn_on_device"
+}

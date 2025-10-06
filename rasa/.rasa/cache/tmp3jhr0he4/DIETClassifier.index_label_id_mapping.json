@@ -1,0 +1,13 @@
+{
+  "0": "check_devices_in_room",
+  "1": "check_rooms",
+  "2": "goodbye",
+  "3": "greet",
+  "4": "provide_name",
+  "5": "set_brightness",
+  "6": "set_color",
+  "7": "set_fan_speed",
+  "8": "set_timer",
+  "9": "turn_off_device",
+  "10": "turn_on_device"
+}

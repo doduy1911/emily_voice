@@ -1,0 +1,50 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_brightness\"}}]": "action_set_brightness",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_brightness\"}}, {\"prev_action\": {\"action_name\": \"action_set_brightness\"}, \"user\": {\"intent\": \"set_brightness\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_timer\"}}]": "action_set_timer",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_timer\"}}, {\"prev_action\": {\"action_name\": \"action_set_timer\"}, \"user\": {\"intent\": \"set_timer\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_rooms\"}}]": "action_check_rooms",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_rooms\"}}, {\"prev_action\": {\"action_name\": \"action_check_rooms\"}, \"user\": {\"intent\": \"check_rooms\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_color\"}}]": "action_set_color",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_color\"}}, {\"prev_action\": {\"action_name\": \"action_set_color\"}, \"user\": {\"intent\": \"set_color\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}]": "action_check_devices_in_room",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}, {\"prev_action\": {\"action_name\": \"action_check_devices_in_room\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_off_device\"}}]": "action_turn_off",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_off_device\"}}, {\"prev_action\": {\"action_name\": \"action_turn_off\"}, \"user\": {\"intent\": \"turn_off_device\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_fan_speed\"}}]": "action_set_fan_speed",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_fan_speed\"}}, {\"prev_action\": {\"action_name\": \"action_set_fan_speed\"}, \"user\": {\"intent\": \"set_fan_speed\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "action_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"action_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_on_device\"}}]": "action_turn_on",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_on_device\"}}, {\"prev_action\": {\"action_name\": \"action_turn_on\"}, \"user\": {\"intent\": \"turn_on_device\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}, {\"prev_action\": {\"action_name\": \"action_check_devices_in_room\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_rooms\"}}, {\"prev_action\": {\"action_name\": \"action_check_rooms\"}, \"user\": {\"intent\": \"check_rooms\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_off_device\"}}, {\"prev_action\": {\"action_name\": \"action_turn_off\"}, \"user\": {\"intent\": \"turn_off_device\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_timer\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_fan_speed\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_on_device\"}}, {\"prev_action\": {\"action_name\": \"action_turn_on\"}, \"user\": {\"intent\": \"turn_on_device\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_rooms\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_color\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_off_device\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_brightness\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_timer\"}}, {\"prev_action\": {\"action_name\": \"action_set_timer\"}, \"user\": {\"intent\": \"set_timer\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_color\"}}, {\"prev_action\": {\"action_name\": \"action_set_color\"}, \"user\": {\"intent\": \"set_color\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"action_greet\"}, \"user\": {\"intent\": \"greet\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_fan_speed\"}}, {\"prev_action\": {\"action_name\": \"action_set_fan_speed\"}, \"user\": {\"intent\": \"set_fan_speed\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"set_brightness\"}}, {\"prev_action\": {\"action_name\": \"action_set_brightness\"}, \"user\": {\"intent\": \"set_brightness\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"turn_on_device\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_devices_in_room\"}}]"
+    ]
+  }
+}

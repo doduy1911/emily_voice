@@ -1,0 +1,10 @@
+[
+  {
+    "name": "device",
+    "pattern": "(\\bđèn\\ trần\\b|\\bĐèn\\ trần\\b|\\bđèn\\ trần\\ to\\b|\\bĐèn\\ trần\\ to\\b|\\bcông\\ tắc\\ 4\\ hạt\\b|\\bCông\\ tắc\\ 4\\ hạt\\b|\\bcông\\ tắc\\ bốn\\ hạt\\b|\\bCông\\ tắc\\ bốn\\ hạt\\b|\\bquạt\\ trần\\b|\\bQuạt\\ trần\\b|\\bđiều\\ hòa\\b|\\bĐiều\\ hòa\\b)"
+  },
+  {
+    "name": "room",
+    "pattern": "(\\bPhòng\\ khách\\b|\\bphòng\\ khách\\b|\\bkhách\\b|\\bphòng\\ ngủ\\b|\\bngủ\\b|\\bnhà\\ bếp\\b|\\bbếp\\b|\\bphòng\\ ăn\\b|\\băn\\b)"
+  }
+]

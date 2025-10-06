@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-brightness",
+      "2": "I-brightness",
+      "3": "L-brightness",
+      "4": "U-brightness",
+      "5": "B-color",
+      "6": "I-color",
+      "7": "L-color",
+      "8": "U-color",
+      "9": "B-device",
+      "10": "I-device",
+      "11": "L-device",
+      "12": "U-device",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-brightness": 1,
+      "I-brightness": 2,
+      "L-brightness": 3,
+      "U-brightness": 4,
+      "B-color": 5,
+      "I-color": 6,
+      "L-color": 7,
+      "U-color": 8,
+      "B-device": 9,
+      "I-device": 10,
+      "L-device": 11,
+      "U-device": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

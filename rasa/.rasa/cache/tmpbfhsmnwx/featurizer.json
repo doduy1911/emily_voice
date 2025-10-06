@@ -1,0 +1,59 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "greet": 1,
+        "nlu_fallback": 2,
+        "out_of_scope": 3,
+        "restart": 4,
+        "session_start": 5,
+        "set_brightness": 6,
+        "set_color": 7,
+        "turn_off_device": 8,
+        "turn_on_device": 9
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_greet": 13,
+        "action_turn_off": 14,
+        "action_turn_on": 15,
+        "action_set_brightness": 16,
+        "action_set_color": 17,
+        "utter_greet": 18
+      },
+      "entities": {
+        "brightness": 0,
+        "color": 1,
+        "device": 2
+      },
+      "slots": {
+        "device_0": 0,
+        "brightness_0": 1,
+        "color_0": 2,
+        "token_0": 3,
+        "house_0": 4,
+        "room_0": 5,
+        "device_id_0": 6
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": null
+}

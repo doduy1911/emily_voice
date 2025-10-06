@@ -1,0 +1,7 @@
+{
+  "0": "greet",
+  "1": "set_brightness",
+  "2": "set_color",
+  "3": "turn_off_device",
+  "4": "turn_on_device"
+}

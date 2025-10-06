@@ -1,0 +1,22 @@
+{
+  "0": "adjust_tv_volume",
+  "1": "ask_capabilities",
+  "2": "ask_gender",
+  "3": "ask_mood",
+  "4": "ask_weather",
+  "5": "change_tv_channel",
+  "6": "check_devices_in_room",
+  "7": "check_rooms",
+  "8": "fallback",
+  "9": "greet",
+  "10": "provide_user_name",
+  "11": "search_hotel_restaurant",
+  "12": "set_ac_mode",
+  "13": "set_ac_temperature",
+  "14": "set_ac_timer",
+  "15": "set_brightness",
+  "16": "set_fan_speed",
+  "17": "set_tv_timer",
+  "18": "turn_off",
+  "19": "turn_on"
+}

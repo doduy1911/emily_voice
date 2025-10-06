@@ -1,0 +1,247 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - hello
+    - good morning
+    - hi
+    - chào emily
+    - chào buổi sáng
+
+- intent: ask_capabilities
+  examples: |
+    - bạn có thể làm gì
+    - bạn giúp được gì
+    - bạn có thể làm được gì giúp tôi không
+    - emily làm được gì
+    - bạn hỗ trợ gì
+
+- intent: provide_user_name
+  examples: |
+    - tôi tên là [Khánh](user_name)
+    - tôi là [Hoàng](user_name)
+    - tên tôi là [Duy](user_name)
+    - tôi tên [Nghĩa](user_name)
+    - tôi là [Thơ](user_name)
+    - tên tôi là [Điệp](user_name)
+
+- intent: check_rooms
+  examples: |
+    - kiểm tra có bao nhiêu phòng
+    - nhà có bao nhiêu phòng
+    - có bao nhiêu phòng trong nhà
+    - liệt kê các phòng
+    - nhà mình có những phòng nào
+
+- intent: check_devices_in_room
+  examples: |
+    - có bao nhiêu thiết bị trong [phòng bếp](room)
+    - kiểm tra thiết bị trong [phòng khách](room)
+    - [phòng ngủ](room) có những thiết bị nào
+    - liệt kê thiết bị trong [phòng khách](room)
+    - thiết bị trong [phòng bếp](room)
+
+- intent: turn_on
+  examples: |
+    - bật [đèn trần nhỏ](device)
+    - bật [đèn trần to](device)
+    - bật [quạt trần](device)
+    - bật [TV](device)
+    - bật [công tắc 4 nút](device)
+    - bật [đèn led](device)
+    - bật [điều hòa](device)
+    - mở [đèn trần nhỏ](device) trong [phòng khách](room)
+    - mở [điều hòa](device)
+    - bật đèn trần to
+    - bật đèn trần lớn
+
+- intent: turn_off
+  examples: |
+    - tắt [đèn trần nhỏ](device)
+    - tắt [đèn trần to](device)
+    - tắt [quạt trần](device)
+    - tắt [TV](device)
+    - tắt [công tắc 4 nút](device)
+    - tắt [đèn led](device)
+    - tắt [điều hòa](device)
+    - ngắt [đèn trần nhỏ](device) trong [phòng bếp](room)
+    - tắt đèn trần to
+    - tắt đèn trần lớn
+
+- intent: set_brightness
+  examples: |
+    - tăng độ sáng [đèn trần nhỏ](device) còn [10](brightness)
+    - giảm độ sáng [đèn trần to](device) còn [50](brightness)
+    - chỉnh độ sáng [đèn led](device) lên [20](brightness)
+    - đặt độ sáng [đèn trần to](device) là [100](brightness)
+    - tăng sáng [đèn led](device) đến [30](brightness)
+    - chỉnh sáng [đèn trần nhỏ](device) [30](brightness)
+
+- intent: set_fan_speed
+  examples: |
+    - tăng tốc độ [quạt trần](device) về số [1](fan_speed)
+    - giảm tốc độ [quạt trần](device) về số [3](fan_speed)
+    - chỉnh tốc độ [quạt trần](device) lên [5](fan_speed)
+    - đặt tốc độ [quạt trần](device) là [6](fan_speed)
+
+- intent: change_tv_channel
+  examples: |
+    - chuyển sang kênh [1](tv_channel)
+    - chuyển kênh [2](tv_channel)
+    - đổi sang kênh [10](tv_channel)
+    - chuyển [TV](device) sang kênh [50](tv_channel)
+    - mở kênh [100](tv_channel)
+
+- intent: adjust_tv_volume
+  examples: |
+    - tăng âm lượng [TV](device)
+    - giảm âm lượng [TV](device)
+    - chỉnh âm lượng [TV](device) lên [50](tv_volume)
+    - đặt âm lượng [TV](device) là [100](tv_volume)
+    - [50](tv_volume)
+
+- intent: set_ac_temperature
+  examples: |
+    - tăng nhiệt độ [điều hòa](device)
+    - giảm nhiệt độ [điều hòa](device)
+    - chỉnh nhiệt độ [điều hòa](device) còn [27](ac_temperature)
+    - đặt nhiệt độ [điều hòa](device) là [24](ac_temperature)
+    - [27 độ](ac_temperature)
+
+- intent: set_ac_mode
+  examples: |
+    - để chế độ [lạnh](ac_mode) cho [điều hòa](device)
+    - chỉnh [điều hòa](device) sang chế độ [khô](ac_mode)
+    - đặt chế độ [tự động](ac_mode)
+    - chế độ [ấm](ac_mode) cho [điều hòa](device)
+
+- intent: set_ac_timer
+  examples: |
+    - hẹn giờ tắt [điều hòa](device) sau [30 phút](timer)
+    - đặt giờ tắt [điều hòa](device) sau [1 tiếng](timer)
+    - hẹn [điều hòa](device) tắt sau [0.5](timer)
+
+- intent: set_tv_timer
+  examples: |
+    - hẹn giờ tắt [TV](device) sau [30 phút](timer)
+    - đặt giờ tắt [TV](device) sau [1 tiếng](timer)
+    - hẹn [TV](device) tắt sau [0.5](timer)
+
+- intent: ask_mood
+  examples: |
+    - hôm nay bạn cảm thấy thế nào
+    - bạn có vui không
+    - tâm trạng bạn hôm nay ra sao
+
+- intent: ask_weather
+  examples: |
+    - nhiệt độ hôm nay thế nào
+    - hôm nay trời nắng không
+    - có mưa không
+    - thời tiết hôm nay ra sao
+    - thời tiết hôm nay thế nào
+    - trời hôm nay có mát không
+
+- intent: search_hotel_restaurant
+  examples: |
+    - tìm khách sạn quanh đây
+    - nhà hàng gần đây có gì
+    - tìm thông tin khách sạn giá phòng
+    - đồ ăn đồ uống quanh đây
+    - dịch vụ tiện ích gần đây
+
+- intent: ask_gender
+  examples: |
+    - bạn là nam hay nữ
+    - emily là nam hay nữ
+    - giới tính của bạn là gì
+
+- intent: ask_love_advice
+  examples: |
+    - Tôi không có người yêu, vậy làm thế nào để có người yêu?
+    - Làm sao để có người yêu?
+    - Tôi cô đơn quá, làm thế nào để có người yêu?
+    - Có cách nào để tìm người yêu không?
+    - tư vấn tìm người yêu đi
+    - làm sao để thoát ế
+    - giúp tôi tìm bạn gái
+    - cách tìm bạn trai thế nào
+
+- intent: set_color
+  examples: |
+    - đổi màu [đèn trần to](device) thành [xanh](color)
+    - đổi màu [đèn trần nhỏ](device) thành [đỏ](color)
+    - đổi màu [đèn trần to](device) sang [tím](color)
+    - đổi màu [đèn trần nhỏ](device) thành [vàng](color)
+    - đổi màu [đèn trần to](device) thành [trắng](color)
+    - đổi màu [đèn trần nhỏ](device) sang [cam](color)
+    - đổi màu [đèn trần to](device) thành [xanh da trời](color)
+    - đổi màu [đèn trần nhỏ](device) sang [xanh lá cây](color)
+
+- intent: fallback
+  examples: |
+    - tại sao gọi là điện thoại thông minh khi nó không bao giờ tự gọi cho bạn
+    - trời xanh hôm nay đẹp không
+    - bạn có biết chơi cờ vua không
+    - mặt trời mọc ở hướng nào
+    - điện thoại thông minh có thông minh thật không
+    - tại sao mèo lại thích ngủ
+    - hôm nay là thứ mấy
+    - bạn thích ăn gì
+    - con người có bao nhiêu ngón tay
+    - ai là tổng thống mỹ hiện tại
+    - có món ăn nào ngon không
+    - làm sao để nấu cơm ngon
+    - tại sao trời lại mưa
+    - bạn có thích nghe nhạc không
+    - con chó có biết nói không
+    - tại sao người ta lại thích cà phê
+    - hôm nay có gì hot không
+    - bạn có biết nhảy không
+    - tại sao biển lại mặn
+    - bạn có thích xem phim không
+    - trời mưa thì có đi ra ngoài được không
+    - lá cây thường màu gì
+    - hôm nay là ngày bao nhiêu
+    - tháng này có bao nhiêu ngày
+    - tại sao lá cây lại rơi
+    - bạn có biết bơi không
+    - con mèo thích ăn gì
+    - tại sao mặt trời lại nóng
+    - bạn có biết kể chuyện không
+    - trời mưa có nên mặc áo mưa không
+    - màu của cầu vồng là gì
+    - bạn có thích ăn kẹo không
+    - tại sao chim biết bay
+    - hôm nay có phải cuối tuần không
+    - tại sao nước biển có màu xanh
+    - bạn có biết nấu ăn không
+    - tại sao trời có sấm sét
+    - bạn thích màu gì nhất
+    - con cá sống ở đâu
+    - tại sao người ta hay uống trà
+    - bạn có biết vẽ tranh không
+    - mặt trăng có sáng không
+    - tại sao núi cao hơn đồi
+    - bạn có thích chơi game không
+    - tại sao lại có bão
+    - con voi ăn gì
+    - bạn có biết hát không
+    - tại sao mùa đông lạnh
+    - màu của tuyết là gì
+    - bạn có thích đi du lịch không
+    - tại sao lại có cầu vồng
+    - con hổ có hung dữ không
+    - bạn có biết làm thơ không
+    - tại sao gió lại thổi
+    - bạn thích mùa nào trong năm
+    - tại sao người ta thích ăn ngọt
+    - con chim thích ăn gì
+    - bạn có biết chơi bóng không
+    - tại sao mặt trời lặn vào buổi tối
+    - bạn có thích đọc sách không
+    - tại sao lại có ngày và đêm
+    - con mèo có thích nước không
+    - bạn có biết nhảy dây không
+    - tại sao người ta thích ngủ

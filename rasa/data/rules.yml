@@ -1,0 +1,133 @@
+version: "3.1"
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: action_greet
+
+- rule: Ask capabilities
+  steps:
+  - intent: ask_capabilities
+  - action: action_ask_capabilities
+
+- rule: Provide user name
+  steps:
+  - intent: provide_user_name
+  - action: action_provide_user_name
+
+- rule: Check rooms
+  steps:
+  - intent: check_rooms
+  - action: action_check_rooms
+
+- rule: Check devices in room
+  steps:
+  - intent: check_devices_in_room
+  - action: action_check_devices_in_room
+
+- rule: Turn on device
+  steps:
+  - intent: turn_on
+  - action: action_turn_on
+
+- rule: Turn off device
+  steps:
+  - intent: turn_off
+  - action: action_turn_off
+
+- rule: Set brightness
+  steps:
+  - intent: set_brightness
+  - action: action_set_brightness
+
+- rule: Set fan speed
+  steps:
+  - intent: set_fan_speed
+  - action: action_set_fan_speed
+
+- rule: Change TV channel
+  steps:
+  - intent: change_tv_channel
+  - action: action_change_tv_channel
+
+- rule: Ask TV volume
+  condition:
+  - slot_was_set:
+    - tv_volume: null
+  steps:
+  - intent: adjust_tv_volume
+  - action: utter_ask_tv_volume
+
+- rule: Adjust TV volume
+  condition:
+  - slot_was_set:
+    - tv_volume
+  steps:
+  - intent: adjust_tv_volume
+  - action: action_adjust_tv_volume
+
+- rule: Ask AC temperature
+  condition:
+  - slot_was_set:
+    - ac_temperature: null
+  steps:
+  - intent: set_ac_temperature
+  - action: utter_ask_ac_temperature
+
+- rule: Set AC temperature
+  condition:
+  - slot_was_set:
+    - ac_temperature
+  steps:
+  - intent: set_ac_temperature
+  - action: action_set_ac_temperature
+
+- rule: Set AC mode
+  steps:
+  - intent: set_ac_mode
+  - action: action_set_ac_mode
+
+- rule: Set AC timer
+  steps:
+  - intent: set_ac_timer
+  - action: action_set_ac_timer
+
+- rule: Set TV timer
+  steps:
+  - intent: set_tv_timer
+  - action: action_set_tv_timer
+
+- rule: Ask mood
+  steps:
+  - intent: ask_mood
+  - action: action_ask_mood
+
+- rule: Ask weather
+  steps:
+  - intent: ask_weather
+  - action: action_ask_weather
+
+- rule: Search hotel or restaurant
+  steps:
+  - intent: search_hotel_restaurant
+  - action: action_search_hotel_restaurant
+
+- rule: Ask gender
+  steps:
+  - intent: ask_gender
+  - action: action_ask_gender
+
+- rule: Ask love advice
+  steps:
+  - intent: ask_love_advice
+  - action: action_ask_love_advice
+
+- rule: Set color
+  steps:
+  - intent: set_color
+  - action: action_set_color
+
+- rule: Fallback
+  steps:
+  - intent: fallback
+  - action: action_fallback

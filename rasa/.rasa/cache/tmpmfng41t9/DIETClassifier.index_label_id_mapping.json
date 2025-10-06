@@ -1,0 +1,14 @@
+{
+  "0": "ask_user_name",
+  "1": "check_devices_in_room",
+  "2": "check_rooms",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "provide_user_name",
+  "6": "set_brightness",
+  "7": "set_color",
+  "8": "set_fan_speed",
+  "9": "set_timer",
+  "10": "turn_off_device",
+  "11": "turn_on_device"
+}

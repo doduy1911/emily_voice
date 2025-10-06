@@ -1,0 +1,30 @@
+version: "3.1"
+rules:
+- rule: Handle greet
+  steps:
+    - intent: greet
+    - action: action_greet
+- rule: Handle turn off device
+  steps:
+    - intent: turn_off_device
+    - action: action_turn_off
+- rule: Handle turn on device
+  steps:
+    - intent: turn_on_device
+    - action: action_turn_on
+- rule: Handle set brightness
+  steps:
+    - intent: set_brightness
+    - action: action_set_brightness
+- rule: Handle set color
+  steps:
+    - intent: set_color
+    - action: action_set_color
+- rule: Handle check rooms
+  steps:
+    - intent: check_rooms
+    - action: action_check_rooms
+- rule: Handle check devices in room
+  steps:
+    - intent: check_devices_in_room
+    - action: action_check_devices_in_room
