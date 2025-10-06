@@ -102,3 +102,25 @@
 2025-10-06 13:34:05,528 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
 2025-10-06 13:34:05,543 INFO     Calling Vbee TTS API with text: Đã chỉnh độ sáng đèn trần nhỏ còn 100, bạn có cần hỗ trợ thêm không ?
 2025-10-06 13:34:11,441 INFO     Cached audio for text: Đã chỉnh độ sáng đèn trần nhỏ còn 100, bạn có cần hỗ trợ thêm không ?
+2025-10-06 13:46:30,695 ERROR    Failed to start audio server: name 'CACHE_DIR' is not defined
+2025-10-06 13:49:18,379 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:49:18,379 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:49:18,379 INFO     Checking if port 8486 is available
+2025-10-06 13:49:18,379 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 13:49:18,380 INFO     Started audio server on port 8486
+2025-10-06 13:49:19,381 INFO     Server is listening on port 8486
+2025-10-06 13:51:25,511 INFO     Attempting to change to directory: None
+2025-10-06 13:51:25,512 ERROR    Failed to start audio server: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-10-06 13:53:14,004 INFO     Attempting to change to directory: None
+2025-10-06 13:53:14,004 ERROR    Failed to start audio server: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-10-06 13:53:49,494 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:53:49,494 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:53:49,494 INFO     Checking if port None is available
+2025-10-06 13:53:49,494 ERROR    Failed to start audio server: 'NoneType' object cannot be interpreted as an integer
+2025-10-06 13:54:19,702 INFO     Attempting to change to directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:54:19,702 INFO     Current working directory: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache
+2025-10-06 13:54:19,702 INFO     Checking if port 8486 is available
+2025-10-06 13:54:19,702 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-06 13:54:19,703 INFO     Started audio server on port 8486
+2025-10-06 13:54:20,704 INFO     Server is listening on port 8486
+2025-10-06 13:54:43,343 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn

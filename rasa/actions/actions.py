@@ -11,6 +11,7 @@ import time
 import threading
 from http.server import SimpleHTTPRequestHandler
 from socketserver import TCPServer
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Thiết lập logging
@@ -23,16 +24,16 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(messa
 logger.addHandler(file_handler)
 logger.addHandler(logging.StreamHandler())
 
-BACKEND_URL = "http://118.70.187.211:8080"
-VBEE_API_URL = "https://vbee.vn/api/v1/tts"
-VBEE_API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NTMxNzExMTB9.I4ZpO9Y2cHBA9XIE9P7k7rYzS7aTD3ZA3bjWUIyEPEw"
-VBEE_APP_ID = "a9cd5352-2329-4350-b689-d85574e988ba"
-CALLBACK_URL = "https://mydomain/callback"
-USERNAME = "admin@bytehome.vn"
-PASSWORD = "admin123"
+BACKEND_URL = os.getenv("BACKEND_URL")
+VBEE_API_URL = os.getenv("VBEE_API_URL")
+VBEE_API_TOKEN = os.getenv("VBEE_API_TOKEN")
+VBEE_APP_ID = os.getenv("VBEE_APP_ID")
+CALLBACK_URL = os.getenv("CALLBACK_URL")
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 CACHE_DIR = f"{BASE_DIR}/rasa/cache"
 AUDIO_SERVER_PORT = 8486
-AUDIO_BASE_URL = f"http://118.70.187.211:{AUDIO_SERVER_PORT}/audio"
+AUDIO_BASE_URL = os.getenv("AUDIO_BASE_URL")
 
 # Khởi động server HTTP để phục vụ file âm thanh từ cache
 class CacheFileHandler(SimpleHTTPRequestHandler):
