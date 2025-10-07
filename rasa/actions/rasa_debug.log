@@ -579,3 +579,512 @@ Nếu bạn đang ở múi giờ Việt Nam (ICT), thì bây giờ là 11:30 sá
 2025-10-06 16:58:53,499 INFO     [TTS] Poll attempt 5/20: 200
 2025-10-06 16:58:54,696 INFO     [TTS] Poll attempt 6/20: 200
 2025-10-06 16:58:55,310 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/2e88c070743b7b26baf5068987d164df.mp3
+2025-10-07 12:50:28,700 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 12:50:28,700 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 12:50:28,700 INFO     Checking if port 8486 is available
+2025-10-07 12:50:28,700 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 12:50:28,701 INFO     Started audio server on port 8486
+2025-10-07 12:50:29,702 INFO     Server is listening on port 8486
+2025-10-07 12:52:59,557 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 12:52:59,557 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 12:52:59,558 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 12:52:59,558 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 12:52:59,558 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 12:53:04,793 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 12:53:04,793 INFO     [TTS] Input text = Vui lòng cho tôi biết tên của bạn.
+2025-10-07 12:53:04,793 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-07 12:53:04,793 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-07 12:53:04,793 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-07 12:53:08,351 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 12:53:08,351 INFO     [TTS] Input text = Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-07 12:53:08,351 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/19ab2d702271c6f0042de720038ae176.mp3
+2025-10-07 12:53:08,351 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/19ab2d702271c6f0042de720038ae176.mp3
+2025-10-07 12:53:08,351 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-07 12:53:18,587 INFO     Attempting to login...
+2025-10-07 12:53:18,829 ERROR    Login failed: 401 - {"status":401,"message":"Invalid username or password","errorCode":10,"timestamp":1759816398675}
+2025-10-07 12:53:18,829 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 12:53:18,829 INFO     [TTS] Input text = Lỗi đăng nhập hệ thống
+2025-10-07 12:53:18,829 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-07 12:53:18,830 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-07 12:53:18,830 INFO     Calling Vbee TTS API with text: Lỗi đăng nhập hệ thống
+2025-10-07 12:53:19,003 INFO     [TTS] Vbee POST status: 401
+2025-10-07 12:53:19,004 INFO     [TTS] Vbee POST response: {"status":0,"error_code":401,"error_message":"Unauthorized"}
+2025-10-07 12:53:19,004 ERROR    [TTS] Vbee API failed with status: 401
+2025-10-07 12:58:22,305 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 12:58:22,305 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 12:58:22,305 INFO     Checking if port 8486 is available
+2025-10-07 12:58:22,305 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 12:58:22,305 INFO     Started audio server on port 8486
+2025-10-07 12:58:23,306 INFO     Server is listening on port 8486
+2025-10-07 13:00:33,246 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:00:33,246 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:00:33,246 INFO     Checking if port 8486 is available
+2025-10-07 13:00:33,246 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 13:00:33,246 INFO     Started audio server on port 8486
+2025-10-07 13:00:34,248 INFO     Server is listening on port 8486
+2025-10-07 13:01:25,749 INFO     Attempting to login...
+2025-10-07 13:01:26,645 INFO     Login successful
+2025-10-07 13:01:26,646 INFO     Fetching house info...
+2025-10-07 13:01:26,687 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-07 13:01:26,688 INFO     Fetching rooms for house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-07 13:01:26,923 INFO     Found rooms: ['Phòng khách', 'Phòng bếp', 'Phòng ngủ']
+2025-10-07 13:01:26,923 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 13:01:26,923 INFO     [TTS] Input text = Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-07 13:01:26,923 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-07 13:01:26,924 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-07 13:01:26,924 INFO     Returning cached audio URL for text: Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-07 13:01:46,906 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 13:01:46,907 INFO     [TTS] Input text = Tôi không có thông tin chi tiết về một công ty tên là ByteHome trong cơ sở dữ liệu của mình.
+
+Đây có thể là một công ty nhỏ, mới thành lập, hoặc hoạt động trong một lĩnh vực rất chuyên biệt mà chưa được nhiều người biết đến rộng rãi.
+
+Nếu bạn có thêm thông tin về công ty này, ví dụ như:
+   Lĩnh vực hoạt động (công nghệ, xây dựng, dịch vụ...)
+   Trụ sở chính hoặc khu vực hoạt động
+   Sản phẩm hoặc dịch vụ cụ thể
+   Hoặc bất kỳ chi tiết nào khác
+
+Hãy chia sẻ để tôi có thể cố gắng tìm kiếm thông tin giúp bạn chính xác hơn nhé!
+2025-10-07 13:01:46,907 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/25a609ca6d59b8861c51d8dd359973eb.mp3
+2025-10-07 13:01:46,907 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/25a609ca6d59b8861c51d8dd359973eb.mp3
+2025-10-07 13:01:46,907 INFO     Calling Vbee TTS API with text: Tôi không có thông tin chi tiết về một công ty tên là ByteHome trong cơ sở dữ liệu của mình.
+
+Đây có thể là một công ty nhỏ, mới thành lập, hoặc hoạt động trong một lĩnh vực rất chuyên biệt mà chưa được nhiều người biết đến rộng rãi.
+
+Nếu bạn có thêm thông tin về công ty này, ví dụ như:
+   Lĩnh vực hoạt động (công nghệ, xây dựng, dịch vụ...)
+   Trụ sở chính hoặc khu vực hoạt động
+   Sản phẩm hoặc dịch vụ cụ thể
+   Hoặc bất kỳ chi tiết nào khác
+
+Hãy chia sẻ để tôi có thể cố gắng tìm kiếm thông tin giúp bạn chính xác hơn nhé!
+2025-10-07 13:01:47,111 INFO     [TTS] Vbee POST status: 401
+2025-10-07 13:01:47,111 INFO     [TTS] Vbee POST response: {"status":0,"error_code":401,"error_message":"Unauthorized"}
+2025-10-07 13:01:47,111 ERROR    [TTS] Vbee API failed with status: 401
+2025-10-07 13:03:07,978 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:03:07,978 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:03:07,978 INFO     Checking if port 8486 is available
+2025-10-07 13:03:07,978 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 13:03:07,978 INFO     Started audio server on port 8486
+2025-10-07 13:03:08,979 INFO     Server is listening on port 8486
+2025-10-07 13:05:31,751 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:05:31,751 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:05:31,751 INFO     Checking if port 8486 is available
+2025-10-07 13:05:31,751 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 13:05:31,751 INFO     Started audio server on port 8486
+2025-10-07 13:05:32,752 INFO     Server is listening on port 8486
+2025-10-07 13:05:58,818 INFO     [TTS] AUDIO_BASE_URL = http://118.70.187.211:8486/audio
+2025-10-07 13:05:58,819 INFO     [TTS] Input text = Tôi không có thông tin cụ thể nào về một công ty tên là ByteHome trong dữ liệu của mình.
+
+Có thể:
+   Đây là một công ty mới thành lập.
+   Một công ty có quy mô nhỏ hoặc hoạt động trong một lĩnh vực rất chuyên biệt.
+   Công ty này có thể hoạt động ở một quốc gia hoặc khu vực cụ thể mà thông tin chưa phổ biến rộng rãi.
+   Hoặc bạn có thể nhầm lẫn về tên gọi (ví dụ: ByteHome thay vì HomeByte, hoặc một tên tương tự).
+
+Với cái tên "ByteHome", nó gợi ý đến các lĩnh vực liên quan đến:
+   Công nghệ nhà thông minh (Smart Home): Các thiết bị, phần mềm, giải pháp tự động hóa cho gia đình.
+   Phần mềm/ứng dụng liên quan đến gia đình hoặc quản lý nhà cửa.
+   Dịch vụ công nghệ thông tin (IT) hoặc phát triển phần mềm cho các hệ thống tại nhà hoặc doanh nghiệp nhỏ.
+   Thiết bị điện tử gia dụng có tích hợp công nghệ.
+
+Nếu bạn có thêm thông tin, chẳng hạn như:
+   Lĩnh vực hoạt động chính của công ty là gì?
+   Công ty đó ở quốc gia nào?
+   Bạn biết thông tin gì khác về họ (ví dụ: sản phẩm, dịch vụ, website)?
+
+Hãy chia sẻ để tôi có thể thử tìm hiểu kỹ hơn nhé!
+2025-10-07 13:05:58,819 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:05:58,819 INFO     [TTS] Audio URL to return: http://118.70.187.211:8486/audio/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:05:58,820 INFO     Calling Vbee TTS API with text: Tôi không có thông tin cụ thể nào về một công ty tên là ByteHome trong dữ liệu của mình.
+
+Có thể:
+   Đây là một công ty mới thành lập.
+   Một công ty có quy mô nhỏ hoặc hoạt động trong một lĩnh vực rất chuyên biệt.
+   Công ty này có thể hoạt động ở một quốc gia hoặc khu vực cụ thể mà thông tin chưa phổ biến rộng rãi.
+   Hoặc bạn có thể nhầm lẫn về tên gọi (ví dụ: ByteHome thay vì HomeByte, hoặc một tên tương tự).
+
+Với cái tên "ByteHome", nó gợi ý đến các lĩnh vực liên quan đến:
+   Công nghệ nhà thông minh (Smart Home): Các thiết bị, phần mềm, giải pháp tự động hóa cho gia đình.
+   Phần mềm/ứng dụng liên quan đến gia đình hoặc quản lý nhà cửa.
+   Dịch vụ công nghệ thông tin (IT) hoặc phát triển phần mềm cho các hệ thống tại nhà hoặc doanh nghiệp nhỏ.
+   Thiết bị điện tử gia dụng có tích hợp công nghệ.
+
+Nếu bạn có thêm thông tin, chẳng hạn như:
+   Lĩnh vực hoạt động chính của công ty là gì?
+   Công ty đó ở quốc gia nào?
+   Bạn biết thông tin gì khác về họ (ví dụ: sản phẩm, dịch vụ, website)?
+
+Hãy chia sẻ để tôi có thể thử tìm hiểu kỹ hơn nhé!
+2025-10-07 13:05:59,337 INFO     [TTS] Vbee POST status: 200
+2025-10-07 13:05:59,337 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":1056,"request_id":"15951a76-7e63-4923-8037-ebe74d7bb765","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 13:05:59,338 INFO     [TTS] Got request_id: 15951a76-7e63-4923-8037-ebe74d7bb765
+2025-10-07 13:05:59,338 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 13:06:00,736 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 13:06:01,995 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 13:06:03,829 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 13:06:05,241 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 13:06:07,136 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-07 13:06:08,519 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-07 13:06:10,290 INFO     [TTS] Poll attempt 7/20: 200
+2025-10-07 13:06:11,610 INFO     [TTS] Poll attempt 8/20: 200
+2025-10-07 13:06:13,024 INFO     [TTS] Poll attempt 9/20: 200
+2025-10-07 13:06:14,287 INFO     [TTS] Poll attempt 10/20: 200
+2025-10-07 13:06:15,738 INFO     [TTS] Poll attempt 11/20: 200
+2025-10-07 13:06:17,147 INFO     [TTS] Poll attempt 12/20: 200
+2025-10-07 13:06:18,451 INFO     [TTS] Poll attempt 13/20: 200
+2025-10-07 13:06:19,680 INFO     [TTS] Poll attempt 14/20: 200
+2025-10-07 13:06:21,348 INFO     [TTS] Poll attempt 15/20: 200
+2025-10-07 13:06:22,648 INFO     [TTS] Poll attempt 16/20: 200
+2025-10-07 13:06:25,075 INFO     [TTS] Poll attempt 17/20: 200
+2025-10-07 13:06:26,173 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:08:00,062 INFO     Received GET request for path: /audio/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:08:00,062 INFO     Stripped file name: dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:08:00,062 INFO     Resolved file path: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:08:00,062 INFO     Serving file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dbd85f7bfd1051eaad9e056bc4bf57df.mp3
+2025-10-07 13:08:00,860 INFO     Received GET request for path: /favicon.ico
+2025-10-07 13:08:00,861 INFO     Stripped file name: favicon.ico
+2025-10-07 13:08:00,861 ERROR    Invalid file name: favicon.ico
+2025-10-07 13:20:57,040 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:20:57,040 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:20:57,040 INFO     Checking if port 8486 is available
+2025-10-07 13:20:57,040 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 13:20:57,040 INFO     Started audio server on port 8486
+2025-10-07 13:20:58,041 INFO     Server is listening on port 8486
+2025-10-07 13:23:07,663 INFO     [TTS] AUDIO_BASE_URL = /audio
+2025-10-07 13:23:07,663 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:23:07,663 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:23:07,663 INFO     [TTS] Audio URL to return: /audio/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:23:07,663 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:24:46,924 INFO     [TTS] AUDIO_BASE_URL = /audio
+2025-10-07 13:24:46,925 INFO     [TTS] Input text = Là một mô hình ngôn ngữ AI, tôi đã được huấn luyện trên rất nhiều dữ liệu, nhưng tôi không tìm thấy thông tin chi tiết hoặc nổi bật về một công ty cụ thể tên là Bytehome trong kho dữ liệu của mình.
+
+Có thể đây là:
+   Một công ty rất mới.
+   Một doanh nghiệp nhỏ hoặc địa phương.
+   Một công ty không có nhiều thông tin công khai rộng rãi trên internet.
+   Bạn có thể đang nhắc đến một công ty có tên tương tự.
+
+Để tôi có thể giúp bạn tốt hơn, bạn có thể cung cấp thêm thông tin về công ty này không? Ví dụ:
+   Lĩnh vực hoạt động (ví dụ: công nghệ, bất động sản, nội thất, dịch vụ, v.v.)
+   Quốc gia hoặc khu vực mà công ty hoạt động.
+   Bạn biết đến công ty này qua đâu?
+
+Với những thông tin đó, tôi có thể cố gắng tìm kiếm hoặc cung cấp ngữ cảnh tốt hơn cho bạn.
+2025-10-07 13:24:46,925 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/d5548b95470dafa69be43df364c37894.mp3
+2025-10-07 13:24:46,925 INFO     [TTS] Audio URL to return: /audio/d5548b95470dafa69be43df364c37894.mp3
+2025-10-07 13:24:46,925 INFO     Calling Vbee TTS API with text: Là một mô hình ngôn ngữ AI, tôi đã được huấn luyện trên rất nhiều dữ liệu, nhưng tôi không tìm thấy thông tin chi tiết hoặc nổi bật về một công ty cụ thể tên là Bytehome trong kho dữ liệu của mình.
+
+Có thể đây là:
+   Một công ty rất mới.
+   Một doanh nghiệp nhỏ hoặc địa phương.
+   Một công ty không có nhiều thông tin công khai rộng rãi trên internet.
+   Bạn có thể đang nhắc đến một công ty có tên tương tự.
+
+Để tôi có thể giúp bạn tốt hơn, bạn có thể cung cấp thêm thông tin về công ty này không? Ví dụ:
+   Lĩnh vực hoạt động (ví dụ: công nghệ, bất động sản, nội thất, dịch vụ, v.v.)
+   Quốc gia hoặc khu vực mà công ty hoạt động.
+   Bạn biết đến công ty này qua đâu?
+
+Với những thông tin đó, tôi có thể cố gắng tìm kiếm hoặc cung cấp ngữ cảnh tốt hơn cho bạn.
+2025-10-07 13:24:47,336 INFO     [TTS] Vbee POST status: 200
+2025-10-07 13:24:47,336 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":763,"request_id":"19c4b63d-dfe6-4223-9748-1b5d4835bb89","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 13:24:47,336 INFO     [TTS] Got request_id: 19c4b63d-dfe6-4223-9748-1b5d4835bb89
+2025-10-07 13:24:47,337 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 13:24:48,564 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 13:24:49,924 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 13:24:51,360 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 13:24:52,794 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 13:24:54,228 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-07 13:24:55,583 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-07 13:24:56,993 INFO     [TTS] Poll attempt 7/20: 200
+2025-10-07 13:24:58,321 INFO     [TTS] Poll attempt 8/20: 200
+2025-10-07 13:24:59,625 INFO     [TTS] Poll attempt 9/20: 200
+2025-10-07 13:25:00,987 INFO     [TTS] Poll attempt 10/20: 200
+2025-10-07 13:25:02,420 INFO     [TTS] Poll attempt 11/20: 200
+2025-10-07 13:25:04,439 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/d5548b95470dafa69be43df364c37894.mp3
+2025-10-07 13:34:33,680 INFO     Attempting to change to directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:34:33,681 INFO     Current working directory: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache
+2025-10-07 13:34:33,681 INFO     Checking if port 8486 is available
+2025-10-07 13:34:33,681 INFO     Starting audio server on port 8486 with CacheFileHandler
+2025-10-07 13:34:33,681 INFO     Started audio server on port 8486
+2025-10-07 13:34:34,683 INFO     Server is listening on port 8486
+2025-10-07 13:35:22,425 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 13:35:22,425 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:35:22,426 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:35:22,426 INFO     [TTS] Audio URL to return: /15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:35:22,426 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:35:51,679 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 13:35:51,679 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:35:51,679 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:35:51,679 INFO     [TTS] Audio URL to return: /15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 13:35:51,679 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 13:36:03,890 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 13:36:03,891 INFO     [TTS] Input text = Một cộng một bằng hai.
+2025-10-07 13:36:03,891 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:36:03,891 INFO     [TTS] Audio URL to return: /576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:36:03,891 INFO     Calling Vbee TTS API with text: Một cộng một bằng hai.
+2025-10-07 13:36:04,156 INFO     [TTS] Vbee POST status: 200
+2025-10-07 13:36:04,156 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":22,"request_id":"da7c53b1-0680-40ab-83c3-e956d36b3a07","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 13:36:04,156 INFO     [TTS] Got request_id: da7c53b1-0680-40ab-83c3-e956d36b3a07
+2025-10-07 13:36:04,156 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 13:36:05,421 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 13:36:06,783 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 13:36:08,102 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 13:36:08,703 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:48:48,802 INFO     Received GET request for path: /576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:48:48,803 INFO     Stripped file name: 576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:48:48,804 INFO     Resolved file path: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:48:48,805 INFO     Serving file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/576573597c6140dfde9a57b826e2a979.mp3
+2025-10-07 13:53:12,164 INFO     Serving /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-07 14:02:28,004 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:02:28,004 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:02:28,005 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:02:28,005 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:02:28,005 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:03:01,260 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:03:01,260 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:03:01,260 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:03:01,260 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:03:01,261 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:03:59,119 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:03:59,119 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:03:59,119 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:03:59,119 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:03:59,119 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:04:14,162 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:04:14,163 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:04:14,163 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:04:14,163 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:04:14,163 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:04:26,143 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:04:26,143 INFO     [TTS] Input text = Vui lòng cho tôi biết tên của bạn.
+2025-10-07 14:04:26,143 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-07 14:04:26,143 INFO     [TTS] Audio URL to return: 7d7777315cb06d59980a98f0b8fac6f3.mp3
+2025-10-07 14:04:26,143 INFO     Returning cached audio URL for text: Vui lòng cho tôi biết tên của bạn.
+2025-10-07 14:04:34,139 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:04:34,139 INFO     [TTS] Input text = Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-07 14:04:34,139 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/19ab2d702271c6f0042de720038ae176.mp3
+2025-10-07 14:04:34,139 INFO     [TTS] Audio URL to return: 19ab2d702271c6f0042de720038ae176.mp3
+2025-10-07 14:04:34,139 INFO     Returning cached audio URL for text: Xin chào Duy, tôi ở đây là để giúp đỡ bạn, tôi có thể hỗ trợ điều khiển các thiết bị điện tử, tôi có thể tìm kiếm thông tin tại cửa hàng. Ngoài ra tôi có thể làm sách nói, tư vấn trò chuyện với bạn, dẫn đường hoặc vận chuyển đồ đạc cho bạn. Vậy tôi có thể giúp gì được cho bạn? Hãy cứ nói nhé
+2025-10-07 14:05:15,877 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:05:15,877 INFO     [TTS] Input text = Chào bạn,
+
+Tôi hiểu bạn đang hỏi về "công ty 300".
+
+Tuy nhiên, "công ty 300" là một tên rất chung chung và không đủ thông tin để tôi có thể xác định chính xác công ty nào bạn đang muốn nói đến. Có rất nhiều công ty trên thế giới và ở Việt Nam có thể có số "300" trong tên, mã số, địa chỉ hoặc liên quan đến một dự án, một dòng sản phẩm nào đó.
+
+Để tôi có thể giúp bạn, bạn vui lòng cung cấp thêm thông tin chi tiết về công ty đó được không? Ví dụ:
+
+   Tên đầy đủ của công ty (ví dụ: Công ty Cổ phần XYZ 300, 300 Solutions, v.v.).
+   Lĩnh vực hoạt động (công nghệ, xây dựng, sản xuất, dịch vụ, v.v.).
+   Địa điểm (thành phố, quốc gia).
+   Bất kỳ thông tin nào khác bạn biết về công ty đó (sản phẩm, dịch vụ nổi bật, bối cảnh bạn nghe tên,...).
+
+Khi có thêm thông tin, tôi sẽ cố gắng tìm kiếm và cung cấp cho bạn những gì tôi biết.
+2025-10-07 14:05:15,878 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/bc7d4d9c5a2e9c624c8629a4e9b9b753.mp3
+2025-10-07 14:05:15,878 INFO     [TTS] Audio URL to return: bc7d4d9c5a2e9c624c8629a4e9b9b753.mp3
+2025-10-07 14:05:15,878 INFO     Calling Vbee TTS API with text: Chào bạn,
+
+Tôi hiểu bạn đang hỏi về "công ty 300".
+
+Tuy nhiên, "công ty 300" là một tên rất chung chung và không đủ thông tin để tôi có thể xác định chính xác công ty nào bạn đang muốn nói đến. Có rất nhiều công ty trên thế giới và ở Việt Nam có thể có số "300" trong tên, mã số, địa chỉ hoặc liên quan đến một dự án, một dòng sản phẩm nào đó.
+
+Để tôi có thể giúp bạn, bạn vui lòng cung cấp thêm thông tin chi tiết về công ty đó được không? Ví dụ:
+
+   Tên đầy đủ của công ty (ví dụ: Công ty Cổ phần XYZ 300, 300 Solutions, v.v.).
+   Lĩnh vực hoạt động (công nghệ, xây dựng, sản xuất, dịch vụ, v.v.).
+   Địa điểm (thành phố, quốc gia).
+   Bất kỳ thông tin nào khác bạn biết về công ty đó (sản phẩm, dịch vụ nổi bật, bối cảnh bạn nghe tên,...).
+
+Khi có thêm thông tin, tôi sẽ cố gắng tìm kiếm và cung cấp cho bạn những gì tôi biết.
+2025-10-07 14:05:16,180 INFO     [TTS] Vbee POST status: 200
+2025-10-07 14:05:16,181 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":829,"request_id":"49f23fe8-885b-46b7-988c-f157035826ce","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 14:05:16,181 INFO     [TTS] Got request_id: 49f23fe8-885b-46b7-988c-f157035826ce
+2025-10-07 14:05:16,181 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 14:05:17,585 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 14:05:18,836 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 14:05:20,177 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 14:05:21,679 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 14:05:23,012 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-07 14:05:24,477 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-07 14:05:25,983 INFO     [TTS] Poll attempt 7/20: 200
+2025-10-07 14:05:27,242 INFO     [TTS] Poll attempt 8/20: 200
+2025-10-07 14:05:28,471 INFO     [TTS] Poll attempt 9/20: 200
+2025-10-07 14:05:30,005 INFO     [TTS] Poll attempt 10/20: 200
+2025-10-07 14:05:31,441 INFO     [TTS] Poll attempt 11/20: 200
+2025-10-07 14:05:32,856 INFO     [TTS] Poll attempt 12/20: 200
+2025-10-07 14:05:34,103 INFO     [TTS] Poll attempt 13/20: 200
+2025-10-07 14:05:35,508 INFO     [TTS] Poll attempt 14/20: 200
+2025-10-07 14:05:36,736 INFO     [TTS] Poll attempt 15/20: 200
+2025-10-07 14:05:37,963 INFO     [TTS] Poll attempt 16/20: 200
+2025-10-07 14:05:39,838 INFO     [TTS] Poll attempt 17/20: 200
+2025-10-07 14:05:41,067 INFO     [TTS] Poll attempt 18/20: 200
+2025-10-07 14:05:42,368 INFO     [TTS] Poll attempt 19/20: 200
+2025-10-07 14:05:45,163 INFO     [TTS] Poll attempt 20/20: 200
+2025-10-07 14:05:46,978 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/bc7d4d9c5a2e9c624c8629a4e9b9b753.mp3
+2025-10-07 14:08:42,338 INFO     Serving /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-07 14:09:23,352 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:09:23,352 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:09:23,352 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:09:23,352 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:09:23,352 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:09:37,311 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:09:37,312 INFO     [TTS] Input text = Lỗi khi gọi Gemini: 'parts'
+2025-10-07 14:09:37,312 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/b96feed16cc8705868960e53ab159066.mp3
+2025-10-07 14:09:37,312 INFO     [TTS] Audio URL to return: b96feed16cc8705868960e53ab159066.mp3
+2025-10-07 14:09:37,312 INFO     Calling Vbee TTS API with text: Lỗi khi gọi Gemini: 'parts'
+2025-10-07 14:09:37,585 INFO     [TTS] Vbee POST status: 200
+2025-10-07 14:09:37,586 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":27,"request_id":"89efe51b-18a0-4642-b5aa-7e415577f386","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 14:09:37,586 INFO     [TTS] Got request_id: 89efe51b-18a0-4642-b5aa-7e415577f386
+2025-10-07 14:09:37,586 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 14:09:38,815 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 14:09:40,177 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 14:09:41,611 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 14:09:42,400 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/b96feed16cc8705868960e53ab159066.mp3
+2025-10-07 14:10:01,374 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:10:01,374 INFO     [TTS] Input text = Lỗi khi gọi Gemini: 'parts'
+2025-10-07 14:10:01,375 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/b96feed16cc8705868960e53ab159066.mp3
+2025-10-07 14:10:01,375 INFO     [TTS] Audio URL to return: b96feed16cc8705868960e53ab159066.mp3
+2025-10-07 14:10:01,375 INFO     Returning cached audio URL for text: Lỗi khi gọi Gemini: 'parts'
+2025-10-07 14:13:01,195 INFO     Serving /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-07 14:21:12,240 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:21:12,240 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:21:12,240 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:21:12,240 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-07 14:21:12,240 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-07 14:21:27,568 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 14:21:27,569 INFO     [TTS] Input text = Gemini trả về phản hồi rỗng hoặc sai định dạng.
+2025-10-07 14:21:27,569 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/239fdcc2f69effd912f4522786393134.mp3
+2025-10-07 14:21:27,569 INFO     [TTS] Audio URL to return: 239fdcc2f69effd912f4522786393134.mp3
+2025-10-07 14:21:27,569 INFO     Calling Vbee TTS API with text: Gemini trả về phản hồi rỗng hoặc sai định dạng.
+2025-10-07 14:21:27,842 INFO     [TTS] Vbee POST status: 200
+2025-10-07 14:21:27,842 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":47,"request_id":"abba502d-5bf0-4c88-a123-b4f9d46f1bdd","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 14:21:27,842 INFO     [TTS] Got request_id: abba502d-5bf0-4c88-a123-b4f9d46f1bdd
+2025-10-07 14:21:27,843 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 14:21:29,101 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 14:21:30,434 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 14:21:31,735 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 14:21:33,067 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 14:21:33,987 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/239fdcc2f69effd912f4522786393134.mp3
+2025-10-07 15:14:53,106 ERROR    Failed to start audio server: name 'start_audio_server' is not defined
+2025-10-07 15:15:52,854 INFO     Serving /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-07 15:17:01,774 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:17:01,774 INFO     [TTS] Input text = Gemini không trả về nội dung.
+2025-10-07 15:17:01,775 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/520a6136ab3851687b375b0c0f1fd850.mp3
+2025-10-07 15:17:01,775 INFO     [TTS] Audio URL to return: 520a6136ab3851687b375b0c0f1fd850.mp3
+2025-10-07 15:17:01,775 INFO     Calling Vbee TTS API with text: Gemini không trả về nội dung.
+2025-10-07 15:17:02,999 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:17:03,000 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":29,"request_id":"2eac4077-d410-4dda-8749-6772e2e898ad","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:17:03,000 INFO     [TTS] Got request_id: 2eac4077-d410-4dda-8749-6772e2e898ad
+2025-10-07 15:17:03,000 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:17:04,550 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:17:05,970 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:17:07,478 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:17:09,011 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 15:17:11,001 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-07 15:17:12,492 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-07 15:17:15,052 INFO     [TTS] Poll attempt 7/20: 200
+2025-10-07 15:17:16,824 INFO     [TTS] Poll attempt 8/20: 200
+2025-10-07 15:17:18,258 INFO     [TTS] Poll attempt 9/20: 200
+2025-10-07 15:17:21,433 INFO     [TTS] Poll attempt 10/20: 200
+2025-10-07 15:17:23,446 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/520a6136ab3851687b375b0c0f1fd850.mp3
+2025-10-07 15:28:06,034 INFO     Serving /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-07 15:28:55,884 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:28:55,886 INFO     [TTS] Input text = Tôi không tìm thấy thông tin về một công ty có tên "Bay Hom" trong cơ sở dữ liệu của mình. Có thể bạn muốn hỏi về một công ty khác hoặc tên gọi không chính xác.
+2025-10-07 15:28:55,886 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/bb0076d0eb49a73bb670927eecc2b503.mp3
+2025-10-07 15:28:55,886 INFO     [TTS] Audio URL to return: bb0076d0eb49a73bb670927eecc2b503.mp3
+2025-10-07 15:28:55,886 INFO     Calling Vbee TTS API with text: Tôi không tìm thấy thông tin về một công ty có tên "Bay Hom" trong cơ sở dữ liệu của mình. Có thể bạn muốn hỏi về một công ty khác hoặc tên gọi không chính xác.
+2025-10-07 15:28:56,819 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:28:56,819 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":160,"request_id":"c4dce563-6060-43bd-b3c2-8b82e4c5a78b","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:28:56,819 INFO     [TTS] Got request_id: c4dce563-6060-43bd-b3c2-8b82e4c5a78b
+2025-10-07 15:28:56,820 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:28:58,872 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:29:00,389 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:29:02,643 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:29:04,383 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 15:29:05,410 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/bb0076d0eb49a73bb670927eecc2b503.mp3
+2025-10-07 15:29:26,837 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:29:26,837 INFO     [TTS] Input text = Có, tôi biết Đại học Bách khoa Hà Nội. Đây là một trong những trường đại học kỹ thuật hàng đầu và lâu đời nhất Việt Nam.
+2025-10-07 15:29:26,837 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/cb10f192ad1732b3ae0008e1786e38bb.mp3
+2025-10-07 15:29:26,838 INFO     [TTS] Audio URL to return: cb10f192ad1732b3ae0008e1786e38bb.mp3
+2025-10-07 15:29:26,838 INFO     Calling Vbee TTS API with text: Có, tôi biết Đại học Bách khoa Hà Nội. Đây là một trong những trường đại học kỹ thuật hàng đầu và lâu đời nhất Việt Nam.
+2025-10-07 15:29:27,430 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:29:27,430 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":120,"request_id":"5977281e-6608-455d-bf15-0a4c0be419dc","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:29:27,430 INFO     [TTS] Got request_id: 5977281e-6608-455d-bf15-0a4c0be419dc
+2025-10-07 15:29:27,430 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:29:28,783 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:29:30,418 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:29:32,440 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:29:33,874 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 15:29:35,644 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-07 15:29:36,947 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/cb10f192ad1732b3ae0008e1786e38bb.mp3
+2025-10-07 15:30:39,681 INFO     Attempting to login...
+2025-10-07 15:30:40,054 INFO     Login successful
+2025-10-07 15:30:40,054 INFO     Fetching house info...
+2025-10-07 15:30:40,126 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-07 15:30:40,127 INFO     Fetching rooms for house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-07 15:30:40,258 INFO     Found rooms: ['Phòng khách', 'Phòng bếp', 'Phòng ngủ']
+2025-10-07 15:30:40,259 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:30:40,259 INFO     [TTS] Input text = Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-07 15:30:40,259 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-07 15:30:40,259 INFO     [TTS] Audio URL to return: 6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-07 15:30:40,260 INFO     Returning cached audio URL for text: Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-07 15:30:51,256 INFO     Attempting to login...
+2025-10-07 15:30:51,607 INFO     Login successful
+2025-10-07 15:30:51,607 INFO     Fetching house info...
+2025-10-07 15:30:51,650 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-07 15:30:51,650 INFO     Fetching room ID for room phòng ngủ in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-07 15:30:51,802 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-07 15:30:51,802 INFO     Found room ID: 21486650-67e5-11f0-9eb7-cf3e056d8392 for room phòng ngủ
+2025-10-07 15:30:51,803 INFO     Fetching devices for room 21486650-67e5-11f0-9eb7-cf3e056d8392...
+2025-10-07 15:30:51,964 INFO     Found devices: []
+2025-10-07 15:30:51,964 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:30:51,964 INFO     [TTS] Input text = Không tìm thấy thiết bị trong phòng ngủ, bạn có cần hỗ trợ thêm không ?
+2025-10-07 15:30:51,965 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/c4a6a9a6be8af069757a03047d118be1.mp3
+2025-10-07 15:30:51,965 INFO     [TTS] Audio URL to return: c4a6a9a6be8af069757a03047d118be1.mp3
+2025-10-07 15:30:51,965 INFO     Calling Vbee TTS API with text: Không tìm thấy thiết bị trong phòng ngủ, bạn có cần hỗ trợ thêm không ?
+2025-10-07 15:30:52,850 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:30:52,850 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":71,"request_id":"094cd60a-5246-4876-bf3b-480884624a3c","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:30:52,850 INFO     [TTS] Got request_id: 094cd60a-5246-4876-bf3b-480884624a3c
+2025-10-07 15:30:52,851 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:30:54,565 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:30:57,669 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:30:59,920 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:31:03,886 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/c4a6a9a6be8af069757a03047d118be1.mp3
+2025-10-07 15:31:15,341 INFO     Attempting to login...
+2025-10-07 15:31:15,689 INFO     Login successful
+2025-10-07 15:31:15,690 INFO     Fetching house info...
+2025-10-07 15:31:15,734 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-07 15:31:15,734 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-07 15:31:15,793 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-07 15:31:15,793 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-07 15:31:15,793 INFO     Fetching devices for room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-07 15:31:15,853 INFO     Found devices: ['công tắc 4 nút', 'đèn led', 'quạt trần', 'đèn trần to', 'đèn trần nhỏ', 'TestDevice']
+2025-10-07 15:31:15,854 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:31:15,855 INFO     [TTS] Input text = Có 6 thiết bị trong phòng khách là: công tắc 4 nút, đèn led, quạt trần, đèn trần to, đèn trần nhỏ, TestDevice, bạn có cần hỗ trợ thêm không ?
+2025-10-07 15:31:15,855 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dc266f49f3d4890f257af6469a5dc3df.mp3
+2025-10-07 15:31:15,855 INFO     [TTS] Audio URL to return: dc266f49f3d4890f257af6469a5dc3df.mp3
+2025-10-07 15:31:15,856 INFO     Calling Vbee TTS API with text: Có 6 thiết bị trong phòng khách là: công tắc 4 nút, đèn led, quạt trần, đèn trần to, đèn trần nhỏ, TestDevice, bạn có cần hỗ trợ thêm không ?
+2025-10-07 15:31:16,611 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:31:16,611 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":141,"request_id":"e671a862-dc08-4312-a10d-58f0c82a482c","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:31:16,612 INFO     [TTS] Got request_id: e671a862-dc08-4312-a10d-58f0c82a482c
+2025-10-07 15:31:16,612 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:31:18,526 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:31:20,707 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:31:23,854 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:31:25,931 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-07 15:31:27,540 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/dc266f49f3d4890f257af6469a5dc3df.mp3
+2025-10-07 15:31:49,074 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-07 15:31:49,074 INFO     [TTS] Input text = Không, iPhone 17 chưa được Apple công bố hay ra mắt chính thức. Dòng sản phẩm này dự kiến sẽ ra mắt vào năm 2025.
+2025-10-07 15:31:49,075 INFO     [TTS] Cache file: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/a186ac9de3c34db0c4a7324ac908b0a8.mp3
+2025-10-07 15:31:49,075 INFO     [TTS] Audio URL to return: a186ac9de3c34db0c4a7324ac908b0a8.mp3
+2025-10-07 15:31:49,075 INFO     Calling Vbee TTS API with text: Không, iPhone 17 chưa được Apple công bố hay ra mắt chính thức. Dòng sản phẩm này dự kiến sẽ ra mắt vào năm 2025.
+2025-10-07 15:31:49,686 INFO     [TTS] Vbee POST status: 200
+2025-10-07 15:31:49,686 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":113,"request_id":"9e9601ed-944e-4f7a-9211-8072190d70f8","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-07 15:31:49,687 INFO     [TTS] Got request_id: 9e9601ed-944e-4f7a-9211-8072190d70f8
+2025-10-07 15:31:49,687 INFO     [TTS] Start polling VBEE for status...
+2025-10-07 15:31:51,602 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-07 15:31:53,776 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-07 15:31:56,138 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-07 15:31:57,953 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/a186ac9de3c34db0c4a7324ac908b0a8.mp3

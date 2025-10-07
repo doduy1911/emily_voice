@@ -12,6 +12,10 @@ import threading
 from http.server import SimpleHTTPRequestHandler
 from socketserver import TCPServer
 import re
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from google import genai
+
+
 from dotenv import load_dotenv
 
 
@@ -27,18 +31,25 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(messa
 logger.addHandler(file_handler)
 logger.addHandler(logging.StreamHandler())
 load_dotenv()  
-print("[DEBUG] VBEE_API_URL =", os.getenv("USERNAME"))
+# print("[DEBUG] VBEE_API_URL =", os.getenv("USERADMIN"))
+# print("[DEBUG] VBEE_API_URL =", os.getenv("PASSWORD"))
+# print("[DEBUG] VBEE_API_URL =", os.getenv("VBEE_APP_ID"))
+# print("[DEBUG] VBEE_API_URL =", os.getenv("VBEE_API_TOKEN"))
+
+
+
+
 
 BACKEND_URL = os.getenv("BACKEND_URL")
 VBEE_API_URL = os.getenv("VBEE_API_URL")
 VBEE_API_TOKEN = os.getenv("VBEE_API_TOKEN")
 VBEE_APP_ID = os.getenv("VBEE_APP_ID")
 CALLBACK_URL = os.getenv("CALLBACK_URL")
-USERNAME = os.getenv("USERNAME")
+USERNAME = os.getenv("USERADMIN")
 PASSWORD = os.getenv("PASSWORD")
 CACHE_DIR = f"{BASE_DIR}/rasa/cache"
 AUDIO_SERVER_PORT = 8486
-AUDIO_BASE_URL = f"http://118.70.187.211:{AUDIO_SERVER_PORT}/audio"
+AUDIO_BASE_URL = f""
 API_GEMINI = "AIzaSyA_3VNqz-NyWbxZZgh1fB3lZMQy8pnktZU"
 
 # Khởi động server HTTP để phục vụ file âm thanh từ cache
@@ -102,63 +113,57 @@ class CacheFileHandler(SimpleHTTPRequestHandler):
             self.send_error(500, f"Error serving file: {str(e)}")
 
 def start_audio_server():
-    logger.info(f"Attempting to change to directory: {CACHE_DIR}")
     if not os.path.exists(CACHE_DIR):
-        logger.info(f"Cache directory does not exist, creating: {CACHE_DIR}")
         os.makedirs(CACHE_DIR)
     os.chdir(CACHE_DIR)
-    logger.info(f"Current working directory: {os.getcwd()}")
-    logger.info(f"Checking if port {AUDIO_SERVER_PORT} is available")
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        try:
-            s.bind(("", AUDIO_SERVER_PORT))
-        except OSError as e:
-            logger.error(f"Port {AUDIO_SERVER_PORT} is in use: {str(e)}")
-            raise
-    # Khởi tạo server với CacheFileHandler
-    server = TCPServer(("", AUDIO_SERVER_PORT), CacheFileHandler, bind_and_activate=True)
-    logger.info(f"Starting audio server on port {AUDIO_SERVER_PORT} with CacheFileHandler")
-    server_thread = threading.Thread(target=server.serve_forever, daemon=True)
-    server_thread.start()
-    logger.info(f"Started audio server on port {AUDIO_SERVER_PORT}")
-    # Kiểm tra server có chạy đúng không
-    time.sleep(1)
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        result = s.connect_ex(("127.0.0.1", AUDIO_SERVER_PORT))
-        if result == 0:
-            logger.info(f"Server is listening on port {AUDIO_SERVER_PORT}")
-        else:
-            logger.error(f"Server failed to start on port {AUDIO_SERVER_PORT}")
-            raise RuntimeError("Server failed to start")
+    handler = SimpleHTTPRequestHandler
+    server = ThreadingHTTPServer(("0.0.0.0", AUDIO_SERVER_PORT), handler)
+    logger.info(f"Serving {CACHE_DIR} at port {AUDIO_SERVER_PORT}")
+
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    return f"http://{os.popen('hostname -I').read().strip().split()[0]}:{AUDIO_SERVER_PORT}"
         
 def ask_gemini(prompt: str) -> str:
     if not API_GEMINI:
         return "Chưa cấu hình khóa API cho Gemini."
+
     url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={API_GEMINI}"
     headers = {"Content-Type": "application/json"}
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    
+    payload = {
+        "contents": [
+            {
+                "role": "user",
+                "parts": [
+                    {
+                        "text": f"Trả lời ngắn gọn, chỉ 1–2 câu: {prompt}"
+                    }
+                ]
+            }
+        ],
+        "generationConfig": {
+            "maxOutputTokens": 512,   # đủ lớn để model không nghẽn
+            "temperature": 0.4        # hạ nhiệt, cho câu gọn gàng hơn
+        }
+    }
 
     try:
         res = requests.post(url, headers=headers, json=payload, timeout=30)
         data = res.json()
-
-        # kiểm tra phản hồi lỗi
-        if "error" in data:
-            msg = data["error"].get("message", "Không rõ lỗi.")
-            logger.error(f"Gemini API error: {msg}")
-            return f"Lỗi từ Gemini API: {msg}"
-
-        # kiểm tra candidates tồn tại
-        if "candidates" not in data or not data["candidates"]:
-            logger.error(f"Gemini không trả về candidates: {data}")
-            return "Gemini không trả về câu trả lời."
-
-        return data["candidates"][0]["content"]["parts"][0]["text"]
-
+        text = (
+            data.get("candidates", [{}])[0]
+            .get("content", {})
+            .get("parts", [{}])[0]
+            .get("text")
+        )
+        return text or "Gemini không trả về nội dung hợp lệ."
     except Exception as e:
-        logger.error(f"Lỗi gọi Gemini: {e}")
-        return f"Lỗi khi gọi Gemini: {str(e)}"
+        return f"Lỗi khi gọi Gemini: {e}"
+
+
+
+
 
 
 # Chạy server HTTP khi khởi động
@@ -369,7 +374,9 @@ class DeviceController:
 
         cache_file = DeviceController._get_cache_file_path(text)
         cache_filename = os.path.basename(cache_file)
-        audio_url = f"{AUDIO_BASE_URL}/{cache_filename}"
+        # audio_url = f"{AUDIO_BASE_URL}/{cache_filename}"
+        audio_url = f"{cache_filename}"
+
         logger.info(f"[TTS] Cache file: {cache_file}")
         logger.info(f"[TTS] Audio URL to return: {audio_url}")
 
