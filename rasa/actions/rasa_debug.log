@@ -1088,3 +1088,4 @@ Khi có thêm thông tin, tôi sẽ cố gắng tìm kiếm và cung cấp cho b
 2025-10-07 15:31:53,776 INFO     [TTS] Poll attempt 2/20: 200
 2025-10-07 15:31:56,138 INFO     [TTS] Poll attempt 3/20: 200
 2025-10-07 15:31:57,953 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/a186ac9de3c34db0c4a7324ac908b0a8.mp3
+2025-10-08 09:15:44,205 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486

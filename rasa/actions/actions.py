@@ -13,7 +13,6 @@ from http.server import SimpleHTTPRequestHandler
 from socketserver import TCPServer
 import re
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-from google import genai
 
 
 from dotenv import load_dotenv
