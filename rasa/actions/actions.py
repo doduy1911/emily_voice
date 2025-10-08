@@ -30,14 +30,6 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)-8s %(messa
 logger.addHandler(file_handler)
 logger.addHandler(logging.StreamHandler())
 load_dotenv()  
-# print("[DEBUG] VBEE_API_URL =", os.getenv("USERADMIN"))
-# print("[DEBUG] VBEE_API_URL =", os.getenv("PASSWORD"))
-# print("[DEBUG] VBEE_API_URL =", os.getenv("VBEE_APP_ID"))
-# print("[DEBUG] VBEE_API_URL =", os.getenv("VBEE_API_TOKEN"))
-
-
-
-
 
 BACKEND_URL = os.getenv("BACKEND_URL")
 VBEE_API_URL = os.getenv("VBEE_API_URL")
@@ -49,8 +41,9 @@ PASSWORD = os.getenv("PASSWORD")
 CACHE_DIR = f"{BASE_DIR}/rasa/cache"
 AUDIO_SERVER_PORT = 8486
 AUDIO_BASE_URL = f""
-API_GEMINI = "AIzaSyA_3VNqz-NyWbxZZgh1fB3lZMQy8pnktZU"
+API_GEMINI = os.getenv("API_GEMINI")
 
+print(BACKEND_URL,VBEE_API_TOKEN,USERNAME,PASSWORD)
 # Khởi động server HTTP để phục vụ file âm thanh từ cache
 class CacheFileHandler(SimpleHTTPRequestHandler):
     def do_HEAD(self):
@@ -142,7 +135,7 @@ def ask_gemini(prompt: str) -> str:
             }
         ],
         "generationConfig": {
-            "maxOutputTokens": 512,   # đủ lớn để model không nghẽn
+            "maxOutputTokens": 900,   # đủ lớn để model không nghẽn
             "temperature": 0.4        # hạ nhiệt, cho câu gọn gàng hơn
         }
     }
@@ -738,7 +731,7 @@ class ActionSetBrightness(Action):
         action_verb = "tăng" if "tăng" in latest_message else "giảm" if "giảm" in latest_message else "chỉnh"
         return DeviceController.control_device(
             dispatcher, tracker, "brightness", {"method": "brightness", "params": brightness_value},
-            "Đã {action} độ sáng {device_name} còn {brightness}, bạn có cần hỗ trợ thêm không ?",
+            "Đã {action} độ sáng {device_name} thành {brightness}, bạn có cần hỗ trợ thêm không ?",
             "Lỗi khi chỉnh độ sáng {device_name} (mã lỗi: {error_code})", action_verb
         )
 

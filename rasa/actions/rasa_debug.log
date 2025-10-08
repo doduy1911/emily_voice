@@ -1089,3 +1089,132 @@ Khi có thêm thông tin, tôi sẽ cố gắng tìm kiếm và cung cấp cho b
 2025-10-07 15:31:56,138 INFO     [TTS] Poll attempt 3/20: 200
 2025-10-07 15:31:57,953 INFO     [TTS] Saved cached audio: /home/duydo/Documents/bytehome/git/emily_voice/rasa/actions/rasa/cache/a186ac9de3c34db0c4a7324ac908b0a8.mp3
 2025-10-08 09:15:44,205 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 09:18:08,180 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 09:19:26,484 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 09:19:26,484 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-08 09:19:26,484 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-08 09:19:26,484 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-08 09:19:26,484 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-08 09:19:46,463 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 09:19:46,464 INFO     [TTS] Input text = Không, iPhone 17 chưa được ra mắt. Đây là một mẫu điện thoại dự kiến sẽ ra mắt vào năm 2025.
+2025-10-08 09:19:46,464 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/9295267d8b62f04e298dfd66c14acb41.mp3
+2025-10-08 09:19:46,464 INFO     [TTS] Audio URL to return: 9295267d8b62f04e298dfd66c14acb41.mp3
+2025-10-08 09:19:46,464 INFO     Calling Vbee TTS API with text: Không, iPhone 17 chưa được ra mắt. Đây là một mẫu điện thoại dự kiến sẽ ra mắt vào năm 2025.
+2025-10-08 09:19:46,680 INFO     [TTS] Vbee POST status: 200
+2025-10-08 09:19:46,681 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":92,"request_id":"c83b8093-d9d2-4305-8378-52b290a2efb3","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-08 09:19:46,681 INFO     [TTS] Got request_id: c83b8093-d9d2-4305-8378-52b290a2efb3
+2025-10-08 09:19:46,681 INFO     [TTS] Start polling VBEE for status...
+2025-10-08 09:19:47,839 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-08 09:19:48,981 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-08 09:19:50,126 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-08 09:19:51,261 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-08 09:19:52,400 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-08 09:19:53,546 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-08 09:19:54,690 INFO     [TTS] Poll attempt 7/20: 200
+2025-10-08 09:19:55,856 INFO     [TTS] Poll attempt 8/20: 200
+2025-10-08 09:19:56,380 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/9295267d8b62f04e298dfd66c14acb41.mp3
+2025-10-08 11:49:20,401 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 11:51:47,602 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:51:47,603 INFO     [TTS] Input text = Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-08 11:51:47,603 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-08 11:51:47,603 INFO     [TTS] Audio URL to return: 15994e4b87cc84eef98978fa7c133e9f.mp3
+2025-10-08 11:51:47,603 INFO     Returning cached audio URL for text: Xin chào, tôi là Emily, tôi rất vui được làm quen và hỗ trợ bạn
+2025-10-08 11:52:06,054 INFO     Attempting to login...
+2025-10-08 11:52:06,060 ERROR    Login failed: 401 - {"status":401,"message":"Authentication failed","errorCode":10,"timestamp":1759899126058}
+2025-10-08 11:52:06,061 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:52:06,061 INFO     [TTS] Input text = Lỗi đăng nhập hệ thống
+2025-10-08 11:52:06,061 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-08 11:52:06,061 INFO     [TTS] Audio URL to return: 56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-08 11:52:06,061 INFO     Calling Vbee TTS API with text: Lỗi đăng nhập hệ thống
+2025-10-08 11:52:06,274 INFO     [TTS] Vbee POST status: 200
+2025-10-08 11:52:06,274 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":22,"request_id":"63b49ece-261a-45f7-bdc2-5bf117217cc6","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-08 11:52:06,274 INFO     [TTS] Got request_id: 63b49ece-261a-45f7-bdc2-5bf117217cc6
+2025-10-08 11:52:06,274 INFO     [TTS] Start polling VBEE for status...
+2025-10-08 11:52:07,424 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-08 11:52:08,592 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-08 11:52:09,771 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-08 11:52:10,954 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-08 11:52:11,412 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-08 11:52:46,175 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 11:53:02,726 INFO     Attempting to login...
+2025-10-08 11:53:02,733 ERROR    Login failed: 401 - {"status":401,"message":"Authentication failed","errorCode":10,"timestamp":1759899182728}
+2025-10-08 11:53:02,734 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:53:02,734 INFO     [TTS] Input text = Lỗi đăng nhập hệ thống
+2025-10-08 11:53:02,734 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-08 11:53:02,734 INFO     [TTS] Audio URL to return: 56612fe38fc395aeaa3b5514864d1816.mp3
+2025-10-08 11:53:02,734 INFO     Returning cached audio URL for text: Lỗi đăng nhập hệ thống
+2025-10-08 11:56:15,736 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 11:56:59,211 INFO     Serving /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache at port 8486
+2025-10-08 11:58:46,807 INFO     Attempting to login...
+2025-10-08 11:58:47,077 INFO     Login successful
+2025-10-08 11:58:47,077 INFO     Fetching house info...
+2025-10-08 11:58:47,085 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-08 11:58:47,085 INFO     Fetching rooms for house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:58:47,111 INFO     Found rooms: ['Phòng khách', 'Phòng bếp', 'Phòng ngủ']
+2025-10-08 11:58:47,111 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:58:47,111 INFO     [TTS] Input text = Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-08 11:58:47,111 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-08 11:58:47,111 INFO     [TTS] Audio URL to return: 6d257df7af2d77c3a4db9e860f7695a5.mp3
+2025-10-08 11:58:47,111 INFO     Returning cached audio URL for text: Có 3 phòng: Phòng khách, Phòng bếp, Phòng ngủ
+2025-10-08 11:58:58,022 INFO     Attempting to login...
+2025-10-08 11:58:58,165 INFO     Login successful
+2025-10-08 11:58:58,165 INFO     Fetching house info...
+2025-10-08 11:58:58,171 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-08 11:58:58,171 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:58:58,187 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-08 11:58:58,187 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-08 11:58:58,187 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:58:58,199 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ba723440-a3ff-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 916, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '32b42f30-a400-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 918, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ea564410-a401-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 919, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}]
+2025-10-08 11:58:58,199 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-08 11:58:58,230 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:58:58,230 INFO     [TTS] Input text = Đã bật đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:58:58,230 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/1216b9a02fca931aeb028cbdc61e0938.mp3
+2025-10-08 11:58:58,231 INFO     [TTS] Audio URL to return: 1216b9a02fca931aeb028cbdc61e0938.mp3
+2025-10-08 11:58:58,231 INFO     Returning cached audio URL for text: Đã bật đèn trần nhỏ, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:59:08,501 INFO     Fetching house info...
+2025-10-08 11:59:08,514 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-08 11:59:08,514 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:59:08,539 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-08 11:59:08,539 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-08 11:59:08,539 INFO     Fetching device ID for device đèn trần nhỏ in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:59:08,562 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ba723440-a3ff-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 916, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '32b42f30-a400-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 918, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ea564410-a401-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 919, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}]
+2025-10-08 11:59:08,562 INFO     Found device ID: 2b3dd690-a27d-11f0-8499-b36c44d0ac58 for device đèn trần nhỏ
+2025-10-08 11:59:08,588 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:59:08,588 INFO     [TTS] Input text = Đã chỉnh độ sáng đèn trần nhỏ thành 10, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:59:08,588 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/d3bbf6b4a316855df938c5808fbfd687.mp3
+2025-10-08 11:59:08,588 INFO     [TTS] Audio URL to return: d3bbf6b4a316855df938c5808fbfd687.mp3
+2025-10-08 11:59:08,588 INFO     Calling Vbee TTS API with text: Đã chỉnh độ sáng đèn trần nhỏ thành 10, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:59:08,812 INFO     [TTS] Vbee POST status: 200
+2025-10-08 11:59:08,812 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":70,"request_id":"f4b72b66-ded9-4091-a988-3167c591219d","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-08 11:59:08,812 INFO     [TTS] Got request_id: f4b72b66-ded9-4091-a988-3167c591219d
+2025-10-08 11:59:08,812 INFO     [TTS] Start polling VBEE for status...
+2025-10-08 11:59:09,964 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-08 11:59:11,110 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-08 11:59:12,286 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-08 11:59:13,469 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-08 11:59:14,619 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-08 11:59:15,833 INFO     [TTS] Poll attempt 6/20: 200
+2025-10-08 11:59:16,292 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/d3bbf6b4a316855df938c5808fbfd687.mp3
+2025-10-08 11:59:36,521 INFO     Fetching house info...
+2025-10-08 11:59:36,529 INFO     Found house: 01857c80-5d69-11f0-9fdb-6b33db69077c
+2025-10-08 11:59:36,529 INFO     Fetching room ID for room phòng khách in house 01857c80-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:59:36,546 INFO     Raw rooms response: [{'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 522, 'fromName': None, 'toName': 'Phòng khách', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': 'f378a5a0-67e4-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 665, 'fromName': None, 'toName': 'Phòng bếp', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '01857c80-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'ASSET', 'id': '21486650-67e5-11f0-9eb7-cf3e056d8392'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 666, 'fromName': None, 'toName': 'Phòng ngủ', 'additionalInfo': None}]
+2025-10-08 11:59:36,546 INFO     Found room ID: 7e8b4110-5d69-11f0-9fdb-6b33db69077c for room phòng khách
+2025-10-08 11:59:36,546 INFO     Fetching device ID for device đèn trần to in room 7e8b4110-5d69-11f0-9fdb-6b33db69077c...
+2025-10-08 11:59:36,560 INFO     Raw devices response: [{'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '82aee140-951b-11f0-a2ce-9b3aa75b4ae1'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 855, 'fromName': None, 'toName': 'công tắc 4 nút', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '2b3dd690-a27d-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 886, 'fromName': None, 'toName': 'đèn trần nhỏ', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ba723440-a3ff-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 916, 'fromName': None, 'toName': 'đèn trần to', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': '32b42f30-a400-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 918, 'fromName': None, 'toName': 'quạt trần', 'additionalInfo': None}, {'from': {'entityType': 'ASSET', 'id': '7e8b4110-5d69-11f0-9fdb-6b33db69077c'}, 'to': {'entityType': 'DEVICE', 'id': 'ea564410-a401-11f0-8499-b36c44d0ac58'}, 'type': 'Contains', 'typeGroup': 'COMMON', 'version': 919, 'fromName': None, 'toName': 'đèn led', 'additionalInfo': None}]
+2025-10-08 11:59:36,560 INFO     Found device ID: ba723440-a3ff-11f0-8499-b36c44d0ac58 for device đèn trần to
+2025-10-08 11:59:36,587 INFO     [TTS] AUDIO_BASE_URL = 
+2025-10-08 11:59:36,587 INFO     [TTS] Input text = Đã bật đèn trần to, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:59:36,587 INFO     [TTS] Cache file: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/22711e7a3c305839c303a4874ee5b691.mp3
+2025-10-08 11:59:36,587 INFO     [TTS] Audio URL to return: 22711e7a3c305839c303a4874ee5b691.mp3
+2025-10-08 11:59:36,587 INFO     Calling Vbee TTS API with text: Đã bật đèn trần to, bạn có cần hỗ trợ thêm không ?
+2025-10-08 11:59:36,798 INFO     [TTS] Vbee POST status: 200
+2025-10-08 11:59:36,798 INFO     [TTS] Vbee POST response: {"result":{"app_id":"a9cd5352-2329-4350-b689-d85574e988ba","audio_type":"mp3","bitrate":128,"characters":50,"request_id":"6075ed63-2e86-4b88-9c52-61129b207123","sample_rate":"22050","speed_rate":"1.0","status":"IN_PROGRESS","voice_code":"hn_female_hermer_stor_48k-fhg"},"status":1}
+2025-10-08 11:59:36,798 INFO     [TTS] Got request_id: 6075ed63-2e86-4b88-9c52-61129b207123
+2025-10-08 11:59:36,798 INFO     [TTS] Start polling VBEE for status...
+2025-10-08 11:59:37,981 INFO     [TTS] Poll attempt 1/20: 200
+2025-10-08 11:59:39,134 INFO     [TTS] Poll attempt 2/20: 200
+2025-10-08 11:59:40,285 INFO     [TTS] Poll attempt 3/20: 200
+2025-10-08 11:59:41,442 INFO     [TTS] Poll attempt 4/20: 200
+2025-10-08 11:59:42,627 INFO     [TTS] Poll attempt 5/20: 200
+2025-10-08 11:59:43,128 INFO     [TTS] Saved cached audio: /home/doduy/Desktop/bytehome_Code/emily_voice/rasa/actions/rasa/cache/22711e7a3c305839c303a4874ee5b691.mp3
